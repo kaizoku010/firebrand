@@ -44,7 +44,7 @@ function App() {
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
                     <p className="text-muted font-13">Howdy, I’m Muneza Dixon
-                      residing in this beautiful electro magnetic world. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Uganda and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
+                      residing in this beautiful electro magnetic world. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Africa and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
