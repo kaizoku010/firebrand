@@ -53,7 +53,7 @@ function App() {
                       <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">Uganda</span></p>
 
                       <p className="text-muted font-13"><strong>Languages :</strong> <span className="m-l-5">
-                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>java </span>
+                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>Java </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
                           <span>Javascript</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
                           <span>HTML/CSS</span> </span><span className="m-l-5">
