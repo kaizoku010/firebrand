@@ -78,6 +78,17 @@ function App() {
                       </span>
                       </p>
 
+                      <p className="text-muted font-13"><strong>Graphics :</strong> <span className="m-l-5">
+                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span>
+                        <Link to="https://www.deviantart.com/imfaceless">
+                          <span>
+                            Deviant Art
+
+                          </span>
+                        </Link>
+                      </span>
+                      </p>
+
                     </div>
                     <ul className="social-links list-inline mt-4 mb-0">
                       <li className="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" className="tooltips" href="" data-original-title="Facebook"><i className="fa fa-facebook"></i></a></li>
