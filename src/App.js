@@ -172,7 +172,7 @@ function App() {
                           <td><Link to="http://mdparchitecture.com/">MDP ARCHITECTURE SARL</Link></td>
                           <td>02/09/2020</td>
                           <td>17/09/2020</td>
-                          <td><span className="label label-warning">Coming soon</span></td>
+                          <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
                         </tr>
                       </tbody>
