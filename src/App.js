@@ -70,12 +70,12 @@ function App() {
                       <p className="text-muted font-13"><strong>Code Base :</strong> <span className="m-l-5">
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span>
                         <a target="_blank" href="https://github.com/kaizoku010">
-                        <span>
+                          <span>
                             Github/kaizoku010
 
                           </span>
                         </a>
-                    
+
                       </span>
                       </p>
 
@@ -84,9 +84,9 @@ function App() {
                         <a target="_blank" href="https://www.deviantart.com/imfaceless">
                           <span>
                             Deviant Art
-      </span>
-                          </a>
-                        
+                          </span>
+                        </a>
+
                       </span>
                       </p>
 
@@ -106,7 +106,7 @@ function App() {
                     <div className="">
                       <h5 className="text-custom">Lead designer / Developer</h5>
                       <p className="mb-0">
-                      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.digitalminds.android.nusu">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.digitalminds.android.nusu">
 
 
                           Nusu
@@ -122,7 +122,7 @@ function App() {
                     <div className="">
                       <h5 className="text-custom">Lead designer / Developer</h5>
                       <p className="mb-0">
-                      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.xoGames.GunsBunnies">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.xoGames.GunsBunnies">
 
                           GunBunnies
                         </a></p>
@@ -152,9 +152,9 @@ function App() {
                         <tr>
                           <td>1</td>
                           <td>
-                          <a target="_blank" href="https://thewellbeingfoundation.net/shop.wuzi/">
+                            <a target="_blank" href="https://thewellbeingfoundation.net/shop.wuzi/">
 
-                        Wuzi
+                              Wuzi
                             </a>
                           </td>
                           <td>10/05/2021</td>
@@ -165,9 +165,9 @@ function App() {
                         <tr>
                           <td>2</td>
                           <td>
-                          <a target="_blank" href="https://thewellbeingfoundation.net">
+                            <a target="_blank" href="https://thewellbeingfoundation.net">
 
-                            The Wellbeing Foundation
+                              The Wellbeing Foundation
                             </a>
                           </td>
                           <td>07/02/2020</td>
@@ -178,9 +178,9 @@ function App() {
                         <tr>
                           <td>3</td>
                           <td>
-                          <a target="_blank" href="http://ngb.go.ug/">
+                            <a target="_blank" href="http://ngb.go.ug/">
 
-                            National Gaming Board Uganda
+                              National Gaming Board Uganda
                             </a>
                           </td>
                           <td>05/01/2019</td>
@@ -191,9 +191,9 @@ function App() {
                         <tr>
                           <td>4</td>
                           <td>
-                          <a target="_blank" href="https://regentestatesltd.com">
+                            <a target="_blank" href="https://regentestatesltd.com">
 
-                            Regent Estates
+                              Regent Estates
                             </a>
                           </td>
                           <td>01/08/2019</td>
@@ -204,16 +204,108 @@ function App() {
                         <tr>
                           <td>5</td>
                           <td>
-                          <a target="_blank" href="http://mdparchitecture.com/">
+                            <a target="_blank" href="http://mdparchitecture.com/">
 
-                          MDP ARCHITECTURE SARL
+                              MDP ARCHITECTURE SARL
                             </a>
                           </td>
                           <td>02/09/2020</td>
                           <td>17/09/2020</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
+
                         </tr>
+
+                        <tr>
+                          <td>6</td>
+                          <td>
+                            <a target="_blank" href="">
+
+                              SHIA NETWORK
+                            </a>
+                          </td>
+                          <td>02/09/2020</td>
+                          <td>17/09/2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Willapps</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            <a target="_blank" href="">
+
+                              VILLA KALIBU
+                            </a>
+                          </td>
+                          <td>02/09/2020</td>
+                          <td>17/09/2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Willapps</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            <a target="_blank" href="">
+
+                              MOTOKA ADS
+                            </a>
+                          </td>
+                          <td>02/09/2020</td>
+                          <td>17/09/2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Firebrand</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            <a target="_blank" >
+
+                              OGISEA
+                            </a>
+                          </td>
+                          <td>02/09/2020</td>
+                          <td>17/09/2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Willapps</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>10</td>
+                          <td>
+                            <a target="_blank" href="https://voxpopuli.ug/">
+
+                              VOX PUPLI
+                            </a>
+                          </td>
+                          <td>2020</td>
+                          <td>2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Willapps</td>
+
+                        </tr>
+                        <tr>
+                          <td>11</td>
+                          <td>
+                            <a target="_blank" href="https://www.pearlfect1998.com/">
+
+                              PERALFECT CARE
+                            </a>
+                          </td>
+                          <td>2020</td>
+                          <td>2020</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Willapps</td>
+
+                        </tr>
+
+
                       </tbody>
                     </table>
                   </div>
