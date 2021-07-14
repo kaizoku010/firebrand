@@ -219,7 +219,7 @@ function App() {
                         <tr>
                           <td>6</td>
                           <td>
-                            <a target="_blank" href="">
+                            <a target="_blank" >
 
                               SHIA NETWORK
                             </a>
@@ -234,7 +234,7 @@ function App() {
                         <tr>
                           <td>7</td>
                           <td>
-                            <a target="_blank" href="">
+                            <a target="_blank" >
 
                               VILLA KALIBU
                             </a>
@@ -249,7 +249,7 @@ function App() {
                         <tr>
                           <td>8</td>
                           <td>
-                            <a target="_blank" href="">
+                            <a target="_blank" >
 
                               MOTOKA ADS
                             </a>
