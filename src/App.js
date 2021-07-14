@@ -224,8 +224,8 @@ function App() {
                               SHIA NETWORK
                             </a>
                           </td>
-                          <td>02/09/2020</td>
-                          <td>17/09/2020</td>
+                          <td>2020</td>
+                          <td>2020</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
 
@@ -239,8 +239,8 @@ function App() {
                               VILLA KALIBU
                             </a>
                           </td>
-                          <td>02/09/2020</td>
-                          <td>17/09/2020</td>
+                          <td>2020</td>
+                          <td>2020</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
 
@@ -254,8 +254,8 @@ function App() {
                               MOTOKA ADS
                             </a>
                           </td>
-                          <td>02/09/2020</td>
-                          <td>17/09/2020</td>
+                          <td>2019</td>
+                          <td>2019</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Firebrand</td>
 
@@ -269,8 +269,8 @@ function App() {
                               OGISEA
                             </a>
                           </td>
-                          <td>02/09/2020</td>
-                          <td>17/09/2020</td>
+                          <td>2020</td>
+                          <td>2020</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
 
