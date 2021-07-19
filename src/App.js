@@ -60,7 +60,7 @@ function App() {
                           <span className="flag-icon flag-icon-fr m-r-5" title="fr"></span> <span>C#</span></span>
                       </p>
 
-                      <p className="text-muted font-13"><strong>Frameworks and Liberies :</strong> <span className="m-l-5">
+                      <p className="text-muted font-13"><strong>Frameworks and Libraries :</strong> <span className="m-l-5">
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
                           <span>Wordpress</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
