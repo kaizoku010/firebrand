@@ -169,7 +169,7 @@ function App() {
                           <td>10/05/2021</td>
                           <td></td>
                           <td><span className="label label-info">Work in Progress</span></td>
-                          <td>The Wellbeing Fondation</td>
+                          <td>The Wellbeing Foundation</td>
                         </tr>
                         <tr>
                           <td>2</td>
@@ -182,7 +182,7 @@ function App() {
                           <td>07/02/2020</td>
                           <td></td>
                           <td><span className="label label-success">Work in Progress</span></td>
-                          <td>The Wellbeing Fondation</td>
+                          <td>The Wellbeing Foundation</td>
                         </tr>
                         <tr>
                           <td>3</td>
