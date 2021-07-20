@@ -43,7 +43,7 @@ function App() {
                 <div className="card-box">
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
-                    <p className="text-muted font-13">Howdy, I’m Muneza Dixon
+                    <p className="text-muted font-13">Hello, I’m Muneza Dixon
                       residing in this beautiful electro magnetic world. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Africa and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
                     <hr></hr>
                     <div className="text-left">
@@ -52,18 +52,18 @@ function App() {
                       <p className="text-muted font-13"><strong>Email :</strong> <span className="m-l-15">dixontheworldvsy@gmail.com</span></p>
                       <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">Uganda</span></p>
 
-                      <p className="text-muted font-13"><strong>Languages :</strong> <span className="m-l-5">
-                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>Java </span>
+                      <p className="text-muted font-13"><strong>Stack :</strong> <span className="m-l-5">
+                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>Java, </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
-                          <span>Javascript</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
-                          <span>HTML/CSS</span> </span><span className="m-l-5">
+                          <span>Javascript,</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
+                          <span>HTML/CSS,</span> </span><span className="m-l-5">
                           <span className="flag-icon flag-icon-fr m-r-5" title="fr"></span> <span>C#</span></span>
                       </p>
 
                       <p className="text-muted font-13"><strong>Frameworks and Libraries :</strong> <span className="m-l-5">
-                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS </span>
+                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS, Angular, </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
-                          <span>Wordpress</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
+                          <span>Wordpress,</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
                           <span>MonoBehaviour</span> </span><span className="m-l-5">
                         </span>
                       </p>
@@ -99,7 +99,13 @@ function App() {
                   </div>
                 </div>
               </div>
+
+
+
               <div className="col-xl-8">
+
+
+
                 <div className="card-box">
                   <h4 className="header-title mt-0 mb-3">Experience</h4>
                   <div className="">
@@ -134,6 +140,9 @@ function App() {
 
 
                 </div>
+
+
+
                 <div className="card-box">
                   <h4 className="header-title mb-3">My Projects</h4>
                   <div className="table-responsive">
