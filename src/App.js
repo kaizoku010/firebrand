@@ -161,7 +161,7 @@ function App() {
                         <tr>
                           <td>1</td>
                           <td>
-                            <a target="_blank" href="https://thewellbeingfoundation.net/shop.wuzi/">
+                            <a target="_blank" href="https://wuzi-app.web.app/">
 
                               Wuzi
                             </a>
@@ -324,7 +324,7 @@ function App() {
                           </td>
                           <td>2020</td>
                           <td>2021</td>
-                          <td><span className="label label-warning">Done</span></td>
+                          <td><span className="label label-warning">Work In Progress</span></td>
                           <td>Savage Creative Africa</td>
 
                         </tr>
