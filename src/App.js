@@ -44,7 +44,7 @@ function App() {
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
                     <p className="text-muted font-13">Hello, I’m Muneza Dixon
-                      residing in this beautiful electro magnetic World. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Africa and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
+                      residing in this beautiful electro magnetic World. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Creative Africa and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
@@ -189,7 +189,7 @@ function App() {
                           <td>
                             <a target="_blank" href="http://ngb.go.ug/">
 
-                              National Gaming Board Uganda
+                              National Gaming Board
                             </a>
                           </td>
                           <td>05/01/2019</td>
@@ -311,6 +311,21 @@ function App() {
                           <td>2020</td>
                           <td><span className="label label-warning">Done</span></td>
                           <td>Willapps</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>12</td>
+                          <td>
+                            <a target="_blank" >
+
+                              Dippo
+                            </a>
+                          </td>
+                          <td>2020</td>
+                          <td>2021</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Savage Creative Africa</td>
 
                         </tr>
 
