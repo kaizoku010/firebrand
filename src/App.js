@@ -161,7 +161,7 @@ function App() {
                         <tr>
                           <td>1</td>
                           <td>
-                            <a target="_blank" href="https://wuzi-app.web.app/">
+                            <a target="_blank" href="https://wuzi-app.firebaseapp.com/">
 
                               Wuzi
                             </a>
