@@ -7,6 +7,12 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width:900px) {
+  .holder__{
+    text-align: center;
+  }
+}
+
 .thumb-lg {
   height: 88px;
   width: 88px;
