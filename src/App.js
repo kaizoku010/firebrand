@@ -25,7 +25,7 @@ function App() {
                       <img src={me} alt="" className="thumb-lg rounded-circle" /></span>
                       <div className="media-body text-white">
                         <h4 className="mt-1 mb-1 font-18">Muneza K. Dixon</h4>
-                        <p className="font-13 text-light">Web Developer/ Graphics Designer/ App Developer</p>
+                        <p className="font-13 text-light">Frontend Developer | Android Developer | Illustrator | Graphics Designer </p>
                         <p className="text-light mb-0">Uganda, Kampala</p>
                       </div>
                     </div>
@@ -37,8 +37,7 @@ function App() {
                 <div className="card-box">
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
-                    <p className="text-muted font-13">Hello, I’m Muneza Dixon
-                      residing in this beautiful electro magnetic World. I build scalable websites, and mobile apps with great UX and UI design. I have worked with companies like Willapps UG, Savage Creative Africa and The Wellbeing Foundation. Meet me or Contact me for any queries.</p>
+                    <p className="text-muted font-13">The name is Dixon,  I build scalable and responsive mobile, web applications with a touch of creativity on the UI and UX design. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB and The Wellbeing Foundation.<br/>Lets link or hit me up for any queries.✌️✌️✌️<br/></p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
@@ -73,7 +72,7 @@ function App() {
                       </span>
                       </p>
 
-                      <p className="text-muted font-13"><strong>Graphics :</strong> <span className="m-l-5">
+                      <p className="text-muted font-13"><strong>Illustrations:</strong> <span className="m-l-5">
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span>
                         <a target="_blank" href="https://www.deviantart.com/imfaceless">
                           <span>
@@ -181,9 +180,9 @@ function App() {
                         <tr>
                           <td>3</td>
                           <td>
-                            <a target="_blank" href="http://ngb.go.ug/">
+                            <a target="_blank" href="https://voxpopuli.ug/">
 
-                              National Gaming Board
+                            VOX PUPLI
                             </a>
                           </td>
                           <td>05/01/2019</td>
@@ -282,7 +281,8 @@ function App() {
                         <tr>
                           <td>10</td>
                           <td>
-                            <a target="_blank" href="https://voxpopuli.ug/">
+                          <a target="_blank" href="http://ngb.go.ug/">
+                          National Gaming Board
 
                               VOX PUPLI
                             </a>
