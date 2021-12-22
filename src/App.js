@@ -283,8 +283,6 @@ function App() {
                           <td>
                           <a target="_blank" href="http://ngb.go.ug/">
                           National Gaming Board
-
-                              VOX PUPLI
                             </a>
                           </td>
                           <td>2020</td>
