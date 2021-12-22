@@ -37,7 +37,7 @@ function App() {
                 <div className="card-box">
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
-                    <p className="text-muted font-13">The name is Dixon,  I build scalable and responsive mobile, web applications with a touch of creativity on the UI and UX design. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB and The Wellbeing Foundation.<br/>Lets link or hit me up for any queries.✌️✌️✌️<br/></p>
+                    <p className="text-muted font-13">The name is Dixon,  I build scalable and responsive mobile, web applications with a touch of creativity on the UI and UX design. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB and The Wellbeing Foundation.<br/>Lets link or hit me up if you have any queries.✌️✌️✌️<br/></p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
