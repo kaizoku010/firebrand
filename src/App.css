@@ -154,3 +154,7 @@ a {
 .font-13 {
   font-size: 13px!important;
 }
+
+.fire-text{
+  text-align: justify;
+}

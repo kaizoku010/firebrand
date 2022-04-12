@@ -37,7 +37,7 @@ function App() {
                 <div className="card-box">
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
-                    <p className="text-muted font-13">Am descent at tearing things apart, but my strength lies in building stuff/tech, building scalable and responsive mobile, web applications with a touch of creativity on the UI and User Experience. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB, NWM, Tinteds and The Wellbeing Foundation.<br/>Lets link or hit me up if you want anything built.<br/></p>
+                    <p className="text-muted font-13 fire-text">Am descent at tearing things apart, but my strength lies in building stuff/tech, building scalable and responsive mobile, web applications with a touch of creativity on the UI and User Experience. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB, NWM, Tinteds and The Wellbeing Foundation.<br/>Lets link or hit me up if you want anything built.<br/></p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
@@ -110,7 +110,7 @@ function App() {
                         </a>
                       </p>
                       <p><b>2016-2021</b></p>
-                      <p className="text-muted font-13 mb-0">
+                      <p className="text-muted font-13 fire-text mb-0">
                         Nusu is a simple financial assistant that enables you or your business to keep track of its finances,
                         on what and where your finances comes from by keeping an offline list of various entries.
                       </p>
@@ -124,7 +124,7 @@ function App() {
                           GunBunnies
                         </a></p>
                       <p><b>2020-2021</b></p>
-                      <p className="text-muted font-13 mb-0">Help the noble knight Emma annihilate the evil bunny overlord
+                      <p className="text-muted font-13 fire-text mb-0">Fight Alongside the noble knight Emma to annihilate the evil bunny overlord
                         and his zombie minions from the Castle.</p>
                     </div>
                   </div>
