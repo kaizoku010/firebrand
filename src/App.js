@@ -49,10 +49,10 @@ function App() {
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>Java, </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
                           <span>Javascript,</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
-                          <span>HTML/CSS,</span> </span> </p>
+                          <span>HTML/CSS</span> </span> </p>
 
                       <p className="text-muted font-13"><strong>Frameworks and Libraries :</strong> <span className="m-l-5">
-                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS, Angular, </span>
+                        <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS, Tailwind,Angular, </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
                           <span>Wordpress,</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
                           <span>MonoBehaviour</span> </span><span className="m-l-5">
