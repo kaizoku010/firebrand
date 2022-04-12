@@ -37,7 +37,7 @@ function App() {
                 <div className="card-box">
                   <h4 className="header-title mt-0">Personal Information</h4>
                   <div className="panel-body">
-                    <p className="text-muted font-13">The name is Dixon,  I build scalable and responsive mobile, web applications with a touch of creativity on the UI and UX design. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB and The Wellbeing Foundation.<br/>Lets link or hit me up if you have any queries.✌️✌️✌️<br/></p>
+                    <p className="text-muted font-13">Am descent at tearing things apart, but my strength lies in building stuff/tech, building scalable and responsive mobile, web applications with a touch of creativity on the UI and User Experience. I have worked with intresting companies like Willapps UG, Savage Creative Africa, NGRB, NWM, Tinteds and The Wellbeing Foundation.<br/>Lets link or hit me up if you want anything built.<br/></p>
                     <hr></hr>
                     <div className="text-left">
                       <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Muneza Dixon</span></p>
@@ -49,9 +49,7 @@ function App() {
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>Java, </span>
                       </span><span className="m-l-5"><span className="flag-icon flag-icon-de m-r-5" title="de"></span>
                           <span>Javascript,</span> </span><span className="m-l-5"><span className="flag-icon flag-icon-es m-r-5" title="es"></span>
-                          <span>HTML/CSS,</span> </span><span className="m-l-5">
-                          <span className="flag-icon flag-icon-fr m-r-5" title="fr"></span> <span>C#</span></span>
-                      </p>
+                          <span>HTML/CSS,</span> </span> </p>
 
                       <p className="text-muted font-13"><strong>Frameworks and Libraries :</strong> <span className="m-l-5">
                         <span className="flag-icon flag-icon-us m-r-5 m-t-0" title="us"></span> <span>ReactJS, Angular, </span>
@@ -321,6 +319,35 @@ function App() {
 
                         </tr>
 
+                        <tr>
+                          <td>13</td>
+                          <td>
+                          <a target="_blank" href="https://www.misstinted.com/">
+
+                              MissTinted
+                            </a>
+                          </td>
+                          <td>2022</td>
+                          <td></td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Firebrand</td>
+
+                        </tr>
+
+                        <tr>
+                          <td>14</td>
+                          <td>
+                          <a target="_blank" href="https://www.naturewasteug.com/">
+
+                              Nature Waste Management Ltd
+                            </a>
+                          </td>
+                          <td>2022</td>
+                          <td></td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Firebrand</td>
+
+                        </tr>
 
                       </tbody>
                     </table>
