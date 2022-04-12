@@ -124,8 +124,8 @@ function App() {
                           GunBunnies
                         </a></p>
                       <p><b>2020-2021</b></p>
-                      <p className="text-muted font-13 fire-text mb-0">Fight Alongside the noble knight Emma to annihilate the evil bunny overlord
-                        and his zombie minions from the Castle.</p>
+                      <p className="text-muted font-13 fire-text mb-0">Fight alongside the noble knight Emma to annihilate the evil bunny overlord
+                        and his zombie minions from the Castle...mwhaha!</p>
                     </div>
                   </div>
 
