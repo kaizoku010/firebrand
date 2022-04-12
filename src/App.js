@@ -152,29 +152,33 @@ function App() {
                         <tr>
                           <td>1</td>
                           <td>
-                            <a target="_blank" href="https://wuzi-app.firebaseapp.com/">
+                            <a target="_blank" href="https://naturewasteug.com/">
 
-                              Wuzi
+                              Nature Waste Management Ltd
                             </a>
                           </td>
-                          <td>10/05/2021</td>
+                          <td>2022</td>
                           <td></td>
-                          <td><span className="label label-info">Work in Progress</span></td>
-                          <td>The Wellbeing Foundation</td>
+                          <td><span className="label label-info">Done</span></td>
+                          <td>Firebrand</td>
                         </tr>
+                        
                         <tr>
                           <td>2</td>
                           <td>
-                            <a target="_blank" href="https://thewellbeingfoundation.net">
+                          <a target="_blank" href="https://www.misstinted.com/">
 
-                              The Wellbeing Foundation
+                              MissTinted
                             </a>
                           </td>
-                          <td>07/02/2020</td>
+                          <td>2022</td>
                           <td></td>
-                          <td><span className="label label-success">Work in Progress</span></td>
-                          <td>The Wellbeing Foundation</td>
+                          <td><span className="label label-warning">Done</span></td>
+                          <td>Firebrand</td>
+
                         </tr>
+
+
                         <tr>
                           <td>3</td>
                           <td>
@@ -319,35 +323,23 @@ function App() {
 
                         </tr>
 
+
                         <tr>
                           <td>13</td>
                           <td>
-                          <a target="_blank" href="https://www.misstinted.com/">
+                          <a target="_blank" href="https://wuzi-app.firebaseapp.com/">
 
-                              MissTinted
+                              Wuzi
                             </a>
                           </td>
-                          <td>2022</td>
+                          <td>2021</td>
                           <td></td>
-                          <td><span className="label label-warning">Done</span></td>
-                          <td>Firebrand</td>
+                          <td><span className="label label-warning">Work In Progress</span></td>
+                          <td>The Wellbeing Experience</td>
 
                         </tr>
 
-                        <tr>
-                          <td>14</td>
-                          <td>
-                          <a target="_blank" href="https://www.naturewasteug.com/">
-
-                              Nature Waste Management Ltd
-                            </a>
-                          </td>
-                          <td>2022</td>
-                          <td></td>
-                          <td><span className="label label-warning">Done</span></td>
-                          <td>Firebrand</td>
-
-                        </tr>
+                      
 
                       </tbody>
                     </table>
