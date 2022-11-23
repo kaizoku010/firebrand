@@ -1,0 +1,33 @@
+.project_box {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+
+.project_list {
+  place-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  padding: 3%;
+  list-style-type: none;
+  background: #f2f2f2;
+  margin: 1rem;
+  height: max-content;
+}
+
+.allProjects_list {
+  width: 300px;
+  align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .project_list {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: auto;
+    padding: 2%;
+    list-style-type: none;
+    margin: 0rem;
+    height: max-content;
+  }
+}

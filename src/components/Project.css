@@ -1,0 +1,10 @@
+.project_ic_holder {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.project_icon {
+  width: 50%;
+  display: none;
+}
