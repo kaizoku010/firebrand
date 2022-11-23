@@ -44,7 +44,7 @@ function App () {
                     <p className='text-muted font-13 fire-text'>
                       Hi there, am real honored you're here...the name
                       is Dixon, self-taught developer with about 6 years of
-                      experience in building scalable and responsive mobile, web
+                      experience in~ building scalable and responsive mobile, web
                       applications with a hint of creativity on top of all of
                       that, though i still have a lot to learn. I have worked
                       with intresting companies like Willapps UG, Savage
