@@ -109,5 +109,29 @@ export default {
       icon: fireman,
       link: "https://wuzi-app.firebaseapp.com/",
     },
+    {
+      id: "10",
+      title: "SekPay",
+      backgroundColor: "white",
+      location: "Uganda, Kampala",
+      textColor: "black",
+      projectImg: Wuz,
+      desc: "From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",
+      icon: fireman,
+      link: "https://sekpay.com/",
+    },
+  
+    {
+      id: "11",
+      title: "Akibahub",
+      backgroundColor: "white",
+      location: "Uganda, Kampala",
+      textColor: "black",
+      projectImg: Wuz,
+      desc: "From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",
+      icon: fireman,
+      link: "https://akibahub.com/",
+    },
   ],
+
 };
