@@ -6,7 +6,6 @@ import fireman from "../img/wuzi-2.png";
 import Gam from "../img/gaming.jpg";
 import BCHealth from "../img/physio.webp";
 import MDP from "../img/cons.jpg";
-import Ejj from "../img/ejj.jpg";
 import Vox from "../img/news2.jpg";
 import Hot from "../img/hot.jpg";
 import TrashBags from "../img/blowup2.jpg";
