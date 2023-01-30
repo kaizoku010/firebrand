@@ -1,3 +1,4 @@
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -48,7 +49,7 @@ function App () {
                       with a hint of creativity on top of all of that, though i
                       still have a lot to learn. I have worked with intresting
                       companies like Willapps UG, Savage Creative Africa, NGRB,
-                      NWM, Tinteds and The Wellbeing Foundation & Marshal's I.T
+                      NWM, Tinteds, L'ampeire Stores, Sekpay, AkibaHub, The Wellbeing Foundation & Marshal's I.T
                       Consultants.
                       <br />
                       <br />
