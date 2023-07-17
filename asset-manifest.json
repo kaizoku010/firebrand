@@ -1,7 +1,7 @@
 {
   "main.css": "/firebrand/static/css/main.67fab2e6.chunk.css",
-  "main.js": "/firebrand/static/js/main.92e199fc.chunk.js",
-  "main.js.map": "/firebrand/static/js/main.92e199fc.chunk.js.map",
+  "main.js": "/firebrand/static/js/main.1fbf00bd.chunk.js",
+  "main.js.map": "/firebrand/static/js/main.1fbf00bd.chunk.js.map",
   "runtime~main.js": "/firebrand/static/js/runtime~main.db3f6aad.js",
   "runtime~main.js.map": "/firebrand/static/js/runtime~main.db3f6aad.js.map",
   "static/css/2.7895b71d.chunk.css": "/firebrand/static/css/2.7895b71d.chunk.css",
@@ -10,7 +10,7 @@
   "static/js/3.181e2f6d.chunk.js": "/firebrand/static/js/3.181e2f6d.chunk.js",
   "static/js/3.181e2f6d.chunk.js.map": "/firebrand/static/js/3.181e2f6d.chunk.js.map",
   "index.html": "/firebrand/index.html",
-  "precache-manifest.15ce5fd8d9c6e7af6eca433d194eb655.js": "/firebrand/precache-manifest.15ce5fd8d9c6e7af6eca433d194eb655.js",
+  "precache-manifest.eaba3e0ce7373da063c040fd43dd49d8.js": "/firebrand/precache-manifest.eaba3e0ce7373da063c040fd43dd49d8.js",
   "service-worker.js": "/firebrand/service-worker.js",
   "static/css/2.7895b71d.chunk.css.map": "/firebrand/static/css/2.7895b71d.chunk.css.map",
   "static/css/main.67fab2e6.chunk.css.map": "/firebrand/static/css/main.67fab2e6.chunk.css.map",
