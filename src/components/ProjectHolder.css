@@ -4,10 +4,11 @@
   border-radius: 10px;
   background: #f2f2f2;
 }
-
+/* this shld be a template for all*/
 .project_list {
   place-content: center;
   display: grid;
+  
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
   padding: 1%;
