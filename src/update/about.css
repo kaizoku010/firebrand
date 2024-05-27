@@ -1,0 +1,79 @@
+.about-container {
+  height: fit-content;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 100px 300px 100px 300px;
+}
+
+.about-title {
+  font-size: 4rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.about-span {
+  color: #fbb03b;
+}
+
+.about-text {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  text-align: justify !important;
+}
+
+.about-container a {
+  text-decoration: underline;
+}
+
+.about-skills-more {
+  font-size: 2.78rem;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.about-tech-stack {
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.tech-stack-list {
+  align-items: left !important;
+  width: -moz-fit-content;
+  display: flex;
+  font-size: 2rem;
+  gap: 10px !important;
+  margin-left: -29px;
+  width: fit-content;
+}
+
+.chip-text {
+  font-size: 11px !important;
+}
+
+@media only screen and (max-width: 950px) {
+  .about-container {
+    height: fit-content;
+    text-align: center;
+    width: auto !important;
+    margin: 40px !important;
+  }
+
+  .about-title {
+    font-size: 4rem;
+    line-height: 1 !important;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .tech-stack-list {
+    justify-items: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-gap: 20px !important; */
+  }
+}
