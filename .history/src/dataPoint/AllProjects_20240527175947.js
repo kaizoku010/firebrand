@@ -206,15 +206,7 @@ export default {
       icon: Gram,
       // link: 'https://www.grammarholic.com/'
     },
-    {
-      id: '332',
-      title: 'Restorative Medicament',
-      techStacks: ["Online"],
-      location: 'London, UK',
-      desc: "They are a team of tibb doctors that use 100% herbal formulas designed to restore your body to its natural state before experiencing health complications.",
-      icon: Medica,
-      link: 'https://www.restorativemedicament.com/',
-    },
+
 
     {
       id: '2',

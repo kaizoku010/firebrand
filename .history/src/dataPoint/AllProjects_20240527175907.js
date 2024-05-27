@@ -111,19 +111,6 @@ export default {
     icon: Medica,
     link: 'https://mirembefoundation.com/',
   },
-
-
-  {
-    id: '7',
-    title: 'L’ampeire Stores',
-    backgroundColor: 'Orange',
-    techStacks: ["Under Maintenance"],
-    textColor: 'white',
-    location: 'Kampala, Ug',
-    desc: 'Is a leading player in Uganda’s fashion industry, they are more of an experimental workshop of ideas.',
-    icon: Lamp,
-    // link: 'https://lampeire.com/'
-  },
   {
     id: '342',
     title: 'Sajadi Charity Foundation',
@@ -183,6 +170,15 @@ export default {
       textColor: 'black',
       // link: 'http://bchealthcareug.com/'
     },
+    {
+      id: '332',
+      title: 'Restorative Medicament',
+      techStacks: ["Online"],
+      location: 'London, UK',
+      desc: "They are a team of tibb doctors that use 100% herbal formulas designed to restore your body to its natural state before experiencing health complications.",
+      icon: Medica,
+      link: 'https://www.restorativemedicament.com/',
+    },
 
     {
       id: '3t2',
@@ -206,15 +202,7 @@ export default {
       icon: Gram,
       // link: 'https://www.grammarholic.com/'
     },
-    {
-      id: '332',
-      title: 'Restorative Medicament',
-      techStacks: ["Online"],
-      location: 'London, UK',
-      desc: "They are a team of tibb doctors that use 100% herbal formulas designed to restore your body to its natural state before experiencing health complications.",
-      icon: Medica,
-      link: 'https://www.restorativemedicament.com/',
-    },
+
 
     {
       id: '2',

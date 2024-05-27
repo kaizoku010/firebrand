@@ -57,7 +57,7 @@ export default {
     location: 'Kampala, Ug',
      desc: '  An Artificial Intelligence (AI) powered Integrated Intelligence Information Management System (IIIMS) for Security Agencies. The system will be designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
     icon: IIIMS,
-    link: 'https://moxie5screen.vercel.app/'
+    link: 'https://moxie5screen.vercel.app/ '
 
 },
 {
@@ -111,19 +111,6 @@ export default {
     icon: Medica,
     link: 'https://mirembefoundation.com/',
   },
-
-
-  {
-    id: '7',
-    title: 'L’ampeire Stores',
-    backgroundColor: 'Orange',
-    techStacks: ["Under Maintenance"],
-    textColor: 'white',
-    location: 'Kampala, Ug',
-    desc: 'Is a leading player in Uganda’s fashion industry, they are more of an experimental workshop of ideas.',
-    icon: Lamp,
-    // link: 'https://lampeire.com/'
-  },
   {
     id: '342',
     title: 'Sajadi Charity Foundation',
@@ -168,7 +155,17 @@ export default {
       icon: Shiha,
       // link: 'https://lampeire.com/'
     },
-
+    {
+      id: '7',
+      title: 'L’ampeire Stores',
+      backgroundColor: 'Orange',
+      techStacks: ["Under Maintenance"],
+      textColor: 'white',
+      location: 'Kampala, Ug',
+      desc: 'Is a leading player in Uganda’s fashion industry, they are more of an experimental workshop of ideas.',
+      icon: Lamp,
+      // link: 'https://lampeire.com/'
+    },
     {
       id: '1',
       title: 'BC HealthCare Services',
@@ -182,6 +179,15 @@ export default {
 
       textColor: 'black',
       // link: 'http://bchealthcareug.com/'
+    },
+    {
+      id: '332',
+      title: 'Restorative Medicament',
+      techStacks: ["Online"],
+      location: 'London, UK',
+      desc: "They are a team of tibb doctors that use 100% herbal formulas designed to restore your body to its natural state before experiencing health complications.",
+      icon: Medica,
+      link: 'https://www.restorativemedicament.com/',
     },
 
     {
@@ -206,15 +212,7 @@ export default {
       icon: Gram,
       // link: 'https://www.grammarholic.com/'
     },
-    {
-      id: '332',
-      title: 'Restorative Medicament',
-      techStacks: ["Online"],
-      location: 'London, UK',
-      desc: "They are a team of tibb doctors that use 100% herbal formulas designed to restore your body to its natural state before experiencing health complications.",
-      icon: Medica,
-      link: 'https://www.restorativemedicament.com/',
-    },
+
 
     {
       id: '2',
