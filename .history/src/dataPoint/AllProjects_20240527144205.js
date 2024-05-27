@@ -15,7 +15,7 @@ import Motoka from '../img/motoka.png'
 import AkibaIc from '../img/akiba.png'
 import Medica from '../img/medica.png'
 import MX5 from "../img/logo-png.png"
-import CH from "../img/ch.png"
+import CH 
 
 
 export default {
@@ -54,7 +54,7 @@ export default {
     textColor: 'red',
     location: 'Kampala, Uganda',
     desc: 'CHCollections offers a curated selection of high-quality, stylish clothing and accessories. Discover the latest trends and elevate your wardrobe with our unique fashion pieces. Shop online for an effortless and enjoyable shopping experience.',
-    icon: CH,
+    icon: NwmLogo,
    link: 'https://chcollections.ug/'
   },
 

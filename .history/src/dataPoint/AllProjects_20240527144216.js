@@ -54,7 +54,7 @@ export default {
     textColor: 'red',
     location: 'Kampala, Uganda',
     desc: 'CHCollections offers a curated selection of high-quality, stylish clothing and accessories. Discover the latest trends and elevate your wardrobe with our unique fashion pieces. Shop online for an effortless and enjoyable shopping experience.',
-    icon: CH,
+    icon: NwmLogo,
    link: 'https://chcollections.ug/'
   },
 

@@ -27,8 +27,9 @@ function apps() {
               <div className="top-element">
                 <img className="site-logo" src={project.icon} />
                   <div className="site-text-holder">
-                       {/* <Link className='link-list' to={project.link} target="_blank">    */}
+                       <Link className='link-list' to={project.link} target="_blank">   
                     <h1 className="site-title">{project.title}</h1>
+                        </Link>
                         <p>{project.location}</p>
                   <h2 className="site-desc">{project.desc}</h2>
                   <div className="chip-layout">
@@ -43,8 +44,7 @@ function apps() {
                   </div>
                 </div>
               </div>
-              </Link>
-
+          
             </li>
           ))}
         </ul>

@@ -73,7 +73,6 @@
 .site-desc {
   font-size: 1.24rem;
   font-weight: 400;
-  color:black !important;
   line-height: 1.75rem;
 }
 .chip{
@@ -161,10 +160,5 @@
 }
 
 a{
-  color: black;
-  text-decoration: none !important;
-}
-
-p{
-  color: black !important;
+  
 }
