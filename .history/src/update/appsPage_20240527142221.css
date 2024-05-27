@@ -96,9 +96,7 @@
   height: max-content;
 }
 
-/* mobile view */
-
-
+/* mobile view */4
 
 @media only screen and (max-width: 950px) {
   .sites-list {
