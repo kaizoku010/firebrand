@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3e608fed3e2db5d0d8fd",
+    "revision": "e69c55b28d9ebc9b2ef8",
     "url": "/firebrand/static/css/main.937f572c.chunk.css"
   },
   {
-    "revision": "3e608fed3e2db5d0d8fd",
-    "url": "/firebrand/static/js/main.c376ed72.chunk.js"
+    "revision": "e69c55b28d9ebc9b2ef8",
+    "url": "/firebrand/static/js/main.1057bd6d.chunk.js"
   },
   {
     "revision": "db741d780c08f8d57b90",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/firebrand/static/media/linked.400c5e27.png"
   },
   {
-    "revision": "a7d48913f21d5c83b4ee99876997b627",
+    "revision": "9d3ee400c1180f90a23474802dacf795",
     "url": "/firebrand/index.html"
   }
 ];
