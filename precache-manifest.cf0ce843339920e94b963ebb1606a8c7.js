@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "5e89907708425772131d",
-    "url": "/firebrand/static/css/main.e1638815.chunk.css"
+    "revision": "604ab5f7976b819312bd",
+    "url": "/firebrand/static/css/main.937f572c.chunk.css"
   },
   {
-    "revision": "5e89907708425772131d",
-    "url": "/firebrand/static/js/main.86bfa210.chunk.js"
+    "revision": "604ab5f7976b819312bd",
+    "url": "/firebrand/static/js/main.b3a6a154.chunk.js"
   },
   {
-    "revision": "cfc2032199b440450dbc",
-    "url": "/firebrand/static/js/runtime~main.db3f6aad.js"
+    "revision": "794e45979aa0495bb469",
+    "url": "/firebrand/static/js/runtime~main.f791d741.js"
   },
   {
-    "revision": "d6a848ea8b0deabf22dd",
-    "url": "/firebrand/static/css/2.7895b71d.chunk.css"
+    "revision": "936a23e110bbc7601f85",
+    "url": "/firebrand/static/css/2.a1153795.chunk.css"
   },
   {
-    "revision": "d6a848ea8b0deabf22dd",
-    "url": "/firebrand/static/js/2.ece794ec.chunk.js"
+    "revision": "936a23e110bbc7601f85",
+    "url": "/firebrand/static/js/2.8b598691.chunk.js"
   },
   {
-    "revision": "2d9637a38856a2437d03",
-    "url": "/firebrand/static/js/3.181e2f6d.chunk.js"
+    "revision": "0377c0b9b3e769050fe5",
+    "url": "/firebrand/static/js/3.193256f2.chunk.js"
   },
   {
     "revision": "367c02a8fc4041e76790325295a6b0b5",
     "url": "/firebrand/static/media/bc_ic.367c02a8.png"
+  },
+  {
+    "revision": "da857bd4ec629ec06542c231b87d5b79",
+    "url": "/firebrand/static/media/logo-png.da857bd4.png"
   },
   {
     "revision": "4c455a25d935e43893b0cd08954a7456",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/firebrand/static/media/linked.400c5e27.png"
   },
   {
-    "revision": "866ff0c49fbcbf4ef1ac09d4f167cd4b",
+    "revision": "e7f2f43d2da1881f8a5e89ba01486c95",
     "url": "/firebrand/index.html"
   }
 ];
