@@ -10,7 +10,7 @@ function header() {
     <nav>
     <div class="logo">
           <a class="name_logo" href="index.html">Muneza.<span>Dixon</span></a>
-        <Link to="/firebrand">  <img class="fireband-logo" src={ Logo} /></Link>
+        <Link to="/">  <img class="fireband-logo" src={ Logo} /></Link>
     </div>
     <input type="checkbox" id="menu-toggle"/>
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
