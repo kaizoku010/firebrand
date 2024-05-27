@@ -62,7 +62,6 @@ export default {
   },
   {
     id:"222",
-    title: "Wuzi Africa",
     techStacks: ["Under Maintenance"],
     textColor:"lightBlue",
     location:"Stockholm, Sweden",

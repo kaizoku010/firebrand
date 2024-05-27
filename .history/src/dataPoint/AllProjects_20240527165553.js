@@ -62,8 +62,8 @@ export default {
   },
   {
     id:"222",
-    title: "Wuzi Africa",
     techStacks: ["Under Maintenance"],
+    techStacks:"Under",
     textColor:"lightBlue",
     location:"Stockholm, Sweden",
     desc:"From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",

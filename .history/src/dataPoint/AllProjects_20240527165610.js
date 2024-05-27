@@ -62,7 +62,7 @@ export default {
   },
   {
     id:"222",
-    title: "Wuzi Africa",
+    title: "GunBunnies",
     techStacks: ["Under Maintenance"],
     textColor:"lightBlue",
     location:"Stockholm, Sweden",
