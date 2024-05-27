@@ -57,7 +57,7 @@ export default {
     location: 'Kampala, Ug',
      desc: '  An Artificial Intelligence (AI) powered Integrated Intelligence Information Management System (IIIMS) for Security Agencies. The system will be designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
     icon: IIIMS,
-    link: 'https://iims.vercel.app/'
+    link: 'https://mdixon.vercel.app/'
 
 },
 {

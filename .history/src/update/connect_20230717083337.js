@@ -15,7 +15,7 @@ function connect() {
           </div>
           <div className="connect-mail-container">
               <img className="connect-mail-ic" src={Phone}/>
-              <h2 className="connect-number">(+256)-750-323-993</h2>
+              <h2 className="connect-number">(+256)-753-971-151</h2>
               </div>
               </div>    
             </div>
