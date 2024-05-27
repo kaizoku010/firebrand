@@ -16,7 +16,7 @@ import AkibaIc from '../img/akiba.png'
 import Medica from '../img/medica.png'
 import MX5 from "../img/logo-png.png"
 import CH from "../img/ch.png"
-import Saj from "../img/sajadi.png"
+
 
 export default {
   // headings shld be #5747ff
@@ -34,20 +34,17 @@ export default {
 
   },
 
-
     {
       id: '145',
       title: "Video Ad System",
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens in realtime. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
+       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
       icon: MX5,
       link: 'https://moxie5screen.vercel.app/'
 
   },
-
-
   
     {
       id: '445',
@@ -58,17 +55,6 @@ export default {
        desc: 'Help the noble knight Emma annihilate the evil bunny overlord and his zombie minions from the Castle.',
       icon: GBunnies,
       // link: 'https://play.google.com/store/apps/details?id=com.xoGames.GunsBunnies'
-
-  },
-  {
-    id:"222",
-    techStacks: ["Under Maintenance"],
-    techStacks:"",
-    textColor:"lightBlue",
-    location:"Stockholm, Sweden",
-    desc:"From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",
-    icon :fireman,
-    link:"https://wuzi-app.firebaseapp.com/"
 
   },
 
@@ -84,27 +70,7 @@ export default {
 
   },
 
-
-
-
-  {
-    id: '4442',
-    title: 'Mirembe Foundation',
-    techStacks: ["Online"],
-    location: 'Butambala, Uganda',
-    desc: "Mirembe Foundation is a registered CBO in Uganda, Butambala District which foundation operates a Vocational Skills Training Center.",
-    icon: Medica,
-    link: 'https://mirembefoundation.com/',
-  },
-  {
-    id: '342',
-    title: 'Sajadi Charity Foundation',
-    techStacks: ["Online"],
-    location: 'Kampala, Uganda',
-    desc: "we believe in the immense potential of Uganda's youth. Our mission is to nurture tomorrow's leaders through a multi-faceted approach that encompasses education, skill development, and community support. We invite you to join us in Building Futures, One Youth at a Time.",
-    icon: Saj,
-    link: 'http://sajadi.ug/',
-  },
+  
   {
     id: '4',
     title: 'C & H Collection',
@@ -116,6 +82,18 @@ export default {
     icon: CH,
    link: 'https://chcollections.ug/'
   },
+
+
+  {
+    id: '4442',
+    title: 'Mirembe Foundation',
+    techStacks: ["Online"],
+    location: 'Butambala, Uganda',
+    desc: "Mirembe Foundation is a registered CBO in Uganda, Butambala District which foundation operates a Vocational Skills Training Center.",
+    icon: Medica,
+    link: 'https://mirembefoundation.com/',
+  },
+
   {
     id: '4',
     title: 'NWM Ltd',
@@ -152,20 +130,6 @@ export default {
       // link: 'https://lampeire.com/'
     },
     {
-      id: '1',
-      title: 'BC HealthCare Services',
-      desc: 'This is a physiotherapy institute thats provides exceptional care and health care services in Uganda.',
-      icon: IMager,
-      techStacks: ["Under Maintenance"],
-      location: 'Kampala, Uganda',
-      backgroundColor: 'white',
-      //506cef
-      location: 'Kampala, Uganda',
-
-      textColor: 'black',
-      // link: 'http://bchealthcareug.com/'
-    },
-    {
       id: '332',
       title: 'Restorative Medicament',
       techStacks: ["Online"],
@@ -197,7 +161,20 @@ export default {
       icon: Gram,
       // link: 'https://www.grammarholic.com/'
     },
+    {
+      id: '1',
+      title: 'BC HealthCare Services',
+      desc: 'This is a physiotherapy institute thats provides exceptional care and health care services in Uganda.',
+      icon: IMager,
+      techStacks: ["Under Maintenance"],
+      location: 'Kampala, Uganda',
+      backgroundColor: 'white',
+      //506cef
+      location: 'Kampala, Uganda',
 
+      textColor: 'black',
+      // link: 'http://bchealthcareug.com/'
+    },
 
     {
       id: '2',

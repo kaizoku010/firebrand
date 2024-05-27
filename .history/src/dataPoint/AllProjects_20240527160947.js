@@ -41,7 +41,7 @@ export default {
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens in realtime. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
+       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
       icon: MX5,
       link: 'https://moxie5screen.vercel.app/'
 
@@ -152,20 +152,6 @@ export default {
       // link: 'https://lampeire.com/'
     },
     {
-      id: '1',
-      title: 'BC HealthCare Services',
-      desc: 'This is a physiotherapy institute thats provides exceptional care and health care services in Uganda.',
-      icon: IMager,
-      techStacks: ["Under Maintenance"],
-      location: 'Kampala, Uganda',
-      backgroundColor: 'white',
-      //506cef
-      location: 'Kampala, Uganda',
-
-      textColor: 'black',
-      // link: 'http://bchealthcareug.com/'
-    },
-    {
       id: '332',
       title: 'Restorative Medicament',
       techStacks: ["Online"],
@@ -197,7 +183,20 @@ export default {
       icon: Gram,
       // link: 'https://www.grammarholic.com/'
     },
+    {
+      id: '1',
+      title: 'BC HealthCare Services',
+      desc: 'This is a physiotherapy institute thats provides exceptional care and health care services in Uganda.',
+      icon: IMager,
+      techStacks: ["Under Maintenance"],
+      location: 'Kampala, Uganda',
+      backgroundColor: 'white',
+      //506cef
+      location: 'Kampala, Uganda',
 
+      textColor: 'black',
+      // link: 'http://bchealthcareug.com/'
+    },
 
     {
       id: '2',

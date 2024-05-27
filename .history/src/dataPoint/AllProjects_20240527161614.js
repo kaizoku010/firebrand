@@ -41,7 +41,7 @@ export default {
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens in realtime. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
+       desc: ' This systems creates video Ads and streams them on custom built mobile Android (back-pack like) Screens. It monitors online Screens, their locations, their battery level, their network status, IP Address, and current Video Ad playing, the system comprises both an Android App & a React App',
       icon: MX5,
       link: 'https://moxie5screen.vercel.app/'
 
