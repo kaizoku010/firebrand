@@ -30,7 +30,7 @@ export default {
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: 'This is a fusion of technologies strung togther to create a custom selfcheckin system that involes more than one cross-platform full-stack application. These involve 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
+       desc: 'This is a fusion of technologies strung togther to create a custom selfcheckin system that involes more than one cross-platform full-stack applications. These invole 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
       icon: MX5,
       link: 'https://eventform-two.vercel.app/'
 
