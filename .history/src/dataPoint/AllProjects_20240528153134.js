@@ -79,7 +79,7 @@ export default {
   techStacks: ["Online"],
   textColor:"lightBlue",
   location:"Kampala, Uganda",
-  desc:"Cynthia Morganz is a dynamic and inspiring figure in the world of fashion and entertainment. With her unique flair and captivating presence, Cynthia embodies the essence of modern modeling and vixening. Her journey is a testament to the power of dreams, hard work, and relentless pursuit of excellence.",
+  desc:"Cynthia Morganz is a dynamic and inspiring figure in the world of fashion and entertainment. With her unique flair and captivating presence, Cynthia embodies the essence of modern modeling and vixening. Her journey is a testament to the power of dreams, hard work, and relentless pursuit of excellence. Here’s a closer look at what makes Cynthia a standout personality",
   icon :CY_,
   link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
 

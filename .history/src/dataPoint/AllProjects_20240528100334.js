@@ -19,7 +19,6 @@ import CH from "../img/ch.png"
 import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
   // "homepage": "https://kaizoku010.github.io/firebrand",
-  import CY_ from "../img/cy_logo.png"
 
 export default {
   // headings shld be #5747ff
@@ -56,7 +55,7 @@ export default {
     techStacks: ["Under Maintenance"],
     textColor: 'lightBlue',
     location: 'Kampala, Ug',
-     desc: 'Integrated Intelligence Information Management is an artificial intelligence (AI) powered System (IIIMS) for Security Agencies in Uganda. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
+     desc: '  This here is an artificial intelligence powered Integrated Intelligence Information Management System (IIIMS) for Security Agencies. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
     icon: IIIMS,
     link: 'https://iims.vercel.app/'
 
@@ -72,20 +71,6 @@ export default {
   link:"https://wuzi-app.firebaseapp.com/"
 
 },
-
-{
-  id:"1122",
-  title: "Cynthia Morganz",
-  techStacks: ["Online"],
-  textColor:"lightBlue",
-  location:"Kampala, Uganda",
-  desc:"Cynthia Morganz is a dynamic and inspiring figure in the world of fashion and entertainment. With her unique flair and captivating presence, Cynthia embodies the essence of modern modeling and vixening. Her journey is a testament to the power of dreams, hard work, and relentless pursuit of excellence.",
-  icon :CY_,
-  link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
-
-},
-
-
 
 
   

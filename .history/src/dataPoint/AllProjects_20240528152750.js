@@ -79,9 +79,9 @@ export default {
   techStacks: ["Online"],
   textColor:"lightBlue",
   location:"Kampala, Uganda",
-  desc:"Cynthia Morganz is a dynamic and inspiring figure in the world of fashion and entertainment. With her unique flair and captivating presence, Cynthia embodies the essence of modern modeling and vixening. Her journey is a testament to the power of dreams, hard work, and relentless pursuit of excellence.",
+  desc:"From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",
   icon :CY_,
-  link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
+  link:"https://wuzi-app.firebaseapp.com/"
 
 },
 

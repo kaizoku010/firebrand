@@ -19,7 +19,6 @@ import CH from "../img/ch.png"
 import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
   // "homepage": "https://kaizoku010.github.io/firebrand",
-  import CY_ from "../img/cy_logo.png"
 
 export default {
   // headings shld be #5747ff
@@ -75,13 +74,13 @@ export default {
 
 {
   id:"1122",
-  title: "Cynthia Morganz",
-  techStacks: ["Online"],
+  title: "Wuzi Africa",
+  techStacks: ["Under Maintenance"],
   textColor:"lightBlue",
-  location:"Kampala, Uganda",
-  desc:"Cynthia Morganz is a dynamic and inspiring figure in the world of fashion and entertainment. With her unique flair and captivating presence, Cynthia embodies the essence of modern modeling and vixening. Her journey is a testament to the power of dreams, hard work, and relentless pursuit of excellence.",
-  icon :CY_,
-  link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
+  location:"Stockholm, Sweden",
+  desc:"From West Nile to Kabale, Moroto to Tororo, dedicated creative communities will be creating bold fabrics and designer garments from recycled old clothes collected across Uganda.",
+  icon :fireman,
+  link:"https://wuzi-app.firebaseapp.com/"
 
 },
 
