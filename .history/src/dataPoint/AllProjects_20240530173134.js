@@ -31,7 +31,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: ' Dx slider is a customizable React Image slider npm package  with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
+       desc: ' Dx slider is a customizable React slider npm package  with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
       icon: DX,
       link: 'https://www.npmjs.com/package/dx-slider'
 
