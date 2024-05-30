@@ -30,8 +30,8 @@ export default {
       title: "Dx Slider",
       techStacks: ["online"],
       textColor: 'lightBlue',
-      location: 'npm package',
-       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
+      type: 'Kampala, Ug',
+       desc: 'This is a fusion of technologies strung together to create a custom selfcheckin system that comprises of more than one application. These involve 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
       icon: DX,
       link: 'https://www.npmjs.com/package/dx-slider'
 

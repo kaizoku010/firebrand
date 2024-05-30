@@ -20,24 +20,13 @@ import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
   // "homepage": "https://kaizoku010.github.io/firebrand",
   import CY_ from "../img/cy_logo.png"
-  import DX from "../img/dx.png"
 
 export default {
   // headings shld be #5747ff
   allProjects: [
-    {
-      id: '2445',
-      title: "Dx Slider",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'npm package',
-       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
-      icon: DX,
-      link: 'https://www.npmjs.com/package/dx-slider'
-
-  },
 
 
+    
     {
       id: '145',
       title: "Selfcheckin System",

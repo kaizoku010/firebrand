@@ -20,23 +20,10 @@ import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
   // "homepage": "https://kaizoku010.github.io/firebrand",
   import CY_ from "../img/cy_logo.png"
-  import DX from "../img/dx.png"
 
 export default {
   // headings shld be #5747ff
   allProjects: [
-    {
-      id: '2445',
-      title: "Dx Slider",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'npm package',
-       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
-      icon: DX,
-      link: 'https://www.npmjs.com/package/dx-slider'
-
-  },
-
 
     {
       id: '145',
@@ -128,27 +115,9 @@ export default {
   },
 
 
-  {
-    id: '4642',
-    title: 'Moxie 5 Marketing Agency',
-    techStacks: ["Online"],
-    location: 'Kampala, Uganda',
-    desc: "Moxie5 Marketing Agency is a full-service marketing powerhouse established in 2019, specializing in delivering results-oriented marketing solutions tailored to agents of development across Uganda. ",
-    icon: MX5,
-    link: 'https://moxie5agency.com/',
-  },
 
 
-  {
-    id: '4442',
-    title: 'Mirembe Foundation',
-    techStacks: ["Online"],
-    location: 'Butambala, Uganda',
-    desc: "Mirembe Foundation is a registered CBO in Uganda, Butambala District which foundation operates a Vocational Skills Training Center.",
-    icon: Medica,
-    link: 'https://mirembefoundation.com/',
-  },
-
+  I am a front-end developer with over 7 years of experience and a passion for building scalable, cross-platform applications. Leveraging my technical expertise, analytical abilities, and problem-solving skills, I consistently deliver robust and efficient solutions.
 
   {
     id: '7',

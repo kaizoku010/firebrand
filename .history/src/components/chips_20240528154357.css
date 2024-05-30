@@ -1,0 +1,14 @@
+.chip{
+    /* background-color: rgb(127, 217, 255); */
+    width: -moz-fit-content;
+    width: fit-content;
+ 
+    border-radius: 20px;   
+}
+
+.chip-text {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 8.5px;
+    margin: 8px;
+}

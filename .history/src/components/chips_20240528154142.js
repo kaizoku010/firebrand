@@ -3,8 +3,9 @@ import "./chips.css"
 
 function chips(props) {
 
+  const defaultColor = props.tech === "Online" ? props.color : "red";
 
-  // console.log(props)
+  
   return (
     <div style={{ backgroundColor:props.color}} className="chip">
           <p className="chip-text">

@@ -6,7 +6,7 @@
   
   .chip {
     padding: 5px 10px;
-    border-radius: 50px;
+    border-radius: 0px;
     display: inline-block;
     color: white;
   }
@@ -15,5 +15,4 @@
     margin: 0;
     font-size: 14px;
   }
-  
   

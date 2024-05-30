@@ -31,7 +31,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'npm package',
-       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
+       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel",       ',
       icon: DX,
       link: 'https://www.npmjs.com/package/dx-slider'
 

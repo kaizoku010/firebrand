@@ -20,7 +20,7 @@ import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
   // "homepage": "https://kaizoku010.github.io/firebrand",
   import CY_ from "../img/cy_logo.png"
-  import DX from "../img/dx.png"
+  import DX from "../"
 
 export default {
   // headings shld be #5747ff
@@ -28,11 +28,11 @@ export default {
     {
       id: '2445',
       title: "Dx Slider",
-      techStacks: ["online"],
+      techStacks: ["npm package"],
       textColor: 'lightBlue',
-      location: 'npm package',
-       desc: 'A customizable React slider component with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
-      icon: DX,
+      location: 'Kampala, Ug',
+       desc: 'This is a fusion of technologies strung together to create a custom selfcheckin system that comprises of more than one application. These involve 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
+      icon: MX5,
       link: 'https://www.npmjs.com/package/dx-slider'
 
   },

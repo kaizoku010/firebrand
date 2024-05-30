@@ -3,8 +3,8 @@ import "./chips.css"
 
 function chips(props) {
 
-
-  // console.log(props)
+  
+  console.log(props)
   return (
     <div style={{ backgroundColor:props.color}} className="chip">
           <p className="chip-text">
