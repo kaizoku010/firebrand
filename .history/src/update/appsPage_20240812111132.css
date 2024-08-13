@@ -121,7 +121,7 @@
 .chip {
   padding: 5px 10px;
   border-radius: 50px;
-  margin-bottom: 4% !important;
+  margin-bottom: 4% ;
   display: inline-block;
   color: white;
 }

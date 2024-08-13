@@ -5,6 +5,13 @@ import Email from "../img/email.png"
 import { Link } from "react-router-dom"; 
 
 function header() {
+
+  const handleMenuClick = () => {
+    const menuToggle = document.getElementById('menu-toggle');
+    if (menuToggle) {
+      menuToggle.checked = false; // Uncheck the checkbox to close the menu
+    }
+  };
   return (
       <header class="header">
     <nav>
@@ -15,10 +22,10 @@ function header() {
     <input type="checkbox" id="menu-toggle"/>
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <ul class="menu">
-      <li><Link to={"apps"}>Projects</Link></li>
-      <li><Link to={"about"} href="#">About</Link></li>
-      <li><Link to={"blog"}>Blog</Link></li>
-      <li><a href={"connect"}>Connect</a></li>
+      <li><Link onClick={handleMenuClick} to={"apps"}>Projects</Link></li>
+      <li><Link onClick={handleMenuClick} to={"about"} href="#">About</Link></li>
+      <li><Link onClick={handleMenuClick} to={"blog"}>Blog</Link></li>
+      <li><Link onClick={handleMenuClick} to={"connect"}>Connect</Link></li>
     </ul>
   </nav>
 </header>

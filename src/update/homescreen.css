@@ -18,9 +18,8 @@
 #userImage{
     border-radius: 50% !important;
     align-self: center;
-    height: 300px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 60%;
 }
 
 .userName{
@@ -108,3 +107,21 @@ padding-right: 2rem;
 
 }
 
+@media only screen and (max-width: 950px) {
+    .homepage {
+        display: flex;
+        place-content: center;
+        height: 100%;
+        align-items: center;
+        position: relative;
+    }  
+    
+    .site-footer {
+        position: relative;
+        background-color: #f0f2f4e4;
+        padding: 0px 0 20px !important;
+        font-size: 15px;
+        line-height: 24px;
+        color: #737373;
+    }
+}

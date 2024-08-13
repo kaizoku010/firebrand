@@ -118,14 +118,6 @@
 
 }
 
-.chip {
-  padding: 5px 10px;
-  border-radius: 50px;
-  margin-bottom: 4% !important;
-  display: inline-block;
-  color: white;
-}
-
   .appsHolder {
     background-color: #e3ecf6 !important;
     padding-right: 0.5em;

@@ -31,7 +31,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: 'The Dx slider is a customizable React Image slider npm package with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
+       desc: ' Dx slider is a customizable React Image slider npm package  with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
       icon: DX,
       link: 'https://www.npmjs.com/package/dx-slider'
 
@@ -40,7 +40,7 @@ export default {
 
     {
       id: '145',
-      title: "Sk!p (A Selfcheckin System)",
+      title: "Selfcheckin System",
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
@@ -65,7 +65,7 @@ export default {
 
   {
     id: '1085',
-    title: "Integrated Intelligence Information Management System",
+    title: "IIIMS",
     techStacks: ["Under Maintenance"],
     textColor: 'lightBlue',
     location: 'Kampala, Ug',
