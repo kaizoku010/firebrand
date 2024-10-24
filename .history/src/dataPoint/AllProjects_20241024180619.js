@@ -25,7 +25,6 @@ import IIIMS from "../img/iiims.png"
   import Ibrahim from "../img/ibra.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
-  import Signature from "../img/sig.png"
 
 
 export default {
@@ -106,14 +105,14 @@ export default {
 
 
 {
-  id: '244rrds5',
-  title: "Signature Pictures",
+  id: '244rr5',
+  title: "Company Profiles",
   techStacks: ["online"],
   textColor: 'lightBlue',
   location: 'Kampala, Uganda',
-   desc: 'Signature Pictures offers professional photo shooting services, capturing timeless moments with precision and creativity. Whether its portraits, events, or commercial shoots.',
-  icon: Signature,
-  link: 'https://signaturepicturesug.com/'
+   desc: 'Explore our cutting-edge work, delivering high-quality designs and constructions tailored to your needs. Elevate your leaving experience with top-tier features and services.',
+  icon: Logo,
+  link: 'https://companyprofiles.vercel.app/'
 
 },
 

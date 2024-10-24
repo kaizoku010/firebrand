@@ -23,10 +23,6 @@ import IIIMS from "../img/iiims.png"
   import DX from "../img/dx.png"
   import Skip from "../img/skip.png"
   import Ibrahim from "../img/ibra.png"
-  import Logo from "../img/logo.png"
-  import Oxen from "../img/ox.png"
-  import Signature from "../img/sig.png"
-
 
 export default {
   // headings shld be #5747ff
@@ -55,65 +51,16 @@ export default {
 
   },
 
-  {
-    id: '244rr5',
-    title: "Skip (Web Expansion)",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'Welcome to sk!p Events, Your Dynamic Partner For Corporate Events in Kampala, Uganda Through Innovative Solutions That Transcend Traditional Boundaries',
-    icon: Skip,
-    link: 'https://skipug.app/'
-  
-  },
-  
-  {
-    id: '445',
-    title: "GunBunnies",
-    techStacks: ["Online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Ug',
-     desc: 'This is a simple android game built to honor my best friend (EMMA). Help the noble knight Emma annihilate the evil bunny overlord and his zombie minions from the Castle.',
-    icon: GBunnies,
-    link: 'https://apkpure.net/gunbunnies/com.xoGames.GunsBunnies'
-
-},
-
-
-{
-  id: '445',
-  title: "Oxenimpact designs",
-  techStacks: ["Online"],
-  textColor: 'lightBlue',
-  location: 'Sweden, Stockholm',
-   desc: 'Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly',
-  icon: Oxen,
-  link: 'https://oxenimpactdesigns.com'
-
-},
 
   {
-    id: '244rr5',
+    id: '2445',
     title: "Company Profiles",
     techStacks: ["online"],
     textColor: 'lightBlue',
     location: 'Kampala, Uganda',
-     desc: 'Explore our cutting-edge work, delivering high-quality designs and constructions tailored to your needs. Elevate your leaving experience with top-tier features and services.',
-    icon: Logo,
-    link: 'https://companyprofiles.vercel.app/'
-
-},
-
-
-{
-  id: '244rrds5',
-  title: "Signature Pictures",
-  techStacks: ["online"],
-  textColor: 'lightBlue',
-  location: 'Kampala, Uganda',
-   desc: 'Signature Pictures offers professional photo shooting services, capturing timeless moments with precision and creativity. Whether its portraits, events, or commercial shoots.',
-  icon: Signature,
-  link: 'https://signaturepicturesug.com/'
+     desc: 'The Dx slider is a customizable React Image slider npm package with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
+    icon: DX,
+    link: 'https://www.npmjs.com/package/dx-slider'
 
 },
 
@@ -182,7 +129,17 @@ export default {
 
 
   
-  
+    {
+      id: '445',
+      title: "GunBunnies",
+      techStacks: ["Under Maintenance"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Ug',
+       desc: 'Help the noble knight Emma annihilate the evil bunny overlord and his zombie minions from the Castle.',
+      icon: GBunnies,
+      // link: 'https://play.google.com/store/apps/details?id=com.xoGames.GunsBunnies'
+
+  },
 
 
     {

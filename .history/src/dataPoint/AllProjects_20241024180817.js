@@ -25,7 +25,7 @@ import IIIMS from "../img/iiims.png"
   import Ibrahim from "../img/ibra.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
-  import Signature from "../img/sig.png"
+  import Sig from "../img/sig.png"
 
 
 export default {
@@ -112,8 +112,8 @@ export default {
   textColor: 'lightBlue',
   location: 'Kampala, Uganda',
    desc: 'Signature Pictures offers professional photo shooting services, capturing timeless moments with precision and creativity. Whether its portraits, events, or commercial shoots.',
-  icon: Signature,
-  link: 'https://signaturepicturesug.com/'
+  icon: Logo,
+  link: 'https://companyprofiles.vercel.app/'
 
 },
 

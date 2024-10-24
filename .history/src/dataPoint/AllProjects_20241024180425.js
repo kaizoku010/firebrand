@@ -25,7 +25,6 @@ import IIIMS from "../img/iiims.png"
   import Ibrahim from "../img/ibra.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
-  import Signature from "../img/sig.png"
 
 
 export default {
@@ -87,8 +86,8 @@ export default {
   textColor: 'lightBlue',
   location: 'Sweden, Stockholm',
    desc: 'Being proudly AfroGlobal is not only a fashion style, but its also about celebrating and embracing a global identity that embraces African cultural heritage and creativity and contribute to a more connected and positive world. Proudly',
-  icon: Oxen,
-  link: 'https://oxenimpactdesigns.com'
+  icon: GBunnies,
+  link: 'https://apkpure.net/gunbunnies/com.xoGames.GunsBunnies'
 
 },
 
@@ -101,19 +100,6 @@ export default {
      desc: 'Explore our cutting-edge work, delivering high-quality designs and constructions tailored to your needs. Elevate your leaving experience with top-tier features and services.',
     icon: Logo,
     link: 'https://companyprofiles.vercel.app/'
-
-},
-
-
-{
-  id: '244rrds5',
-  title: "Signature Pictures",
-  techStacks: ["online"],
-  textColor: 'lightBlue',
-  location: 'Kampala, Uganda',
-   desc: 'Signature Pictures offers professional photo shooting services, capturing timeless moments with precision and creativity. Whether its portraits, events, or commercial shoots.',
-  icon: Signature,
-  link: 'https://signaturepicturesug.com/'
 
 },
 
