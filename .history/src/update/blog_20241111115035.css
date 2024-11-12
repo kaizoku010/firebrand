@@ -1,0 +1,132 @@
+.blog-holder{
+height:100vh;
+
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 100px;
+    padding: 20px;
+  }
+  
+  .blog-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .blog-item-title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #333;
+  }
+  
+  .blog-item-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0.5em 0;
+  }
+  
+  .download-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+.blog-container{
+text-align: center;
+border: 0px solid;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+width: -moz-fit-content;
+width: fit-content;
+/* margin: 100px 300px 100px 300px; */
+}
+
+.coming-soon-title{
+font-weight: 900;
+text-align: left !important;
+font-size: 5em;
+}
+
+.soon-span{
+    color: #fbb03b;
+}
+
+.coming-soon-text{
+    text-align: left !important;
+}
+
+.blog-image-holder{
+width: -moz-fit-content;
+width: fit-content;
+}
+
+.blog-item-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+
+.blog-image{
+
+    height:300px;
+}
+
+/* mobile view */
+@media only screen and (max-width: 950px) {
+    .blog-container {
+        text-align: center;
+        border: 0px solid;
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     
+        width: -moz-fit-content;
+        width: fit-content;
+      
+    }
+
+    
+.coming-soon-title{
+    line-height:0.8;
+    font-weight: 900;
+    text-align: left !important;
+    font-size: 5em;
+    }
+    }
+
+

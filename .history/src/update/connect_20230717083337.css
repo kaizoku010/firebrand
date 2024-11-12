@@ -1,0 +1,102 @@
+.connect-container{
+text-align: center;
+}
+
+.connect-title{
+    font-size: 4.00rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+.about-text{
+    font-size: 1.25rem;
+    line-height: 1.8;
+    text-align: justify !important;
+}
+
+.about-container a{
+    text-decoration: underline;
+}
+
+.connect-mail{
+    font-weight: 700;
+
+}
+
+.connect-mail a{
+    cursor: pointer;
+}
+
+.connect-number{
+    text-align:left;
+    font-weight: 500;
+}
+
+.connect-mail-container{
+    display: flex;
+    align-items: center;
+}
+
+.connect-mail-ic{
+    margin-right: 10px;
+}
+
+.connect-mail:hover a {
+color: red;
+}
+
+
+.holder-connect{
+    height: 100vh;
+    text-align: center;
+    width: -moz-fit-content;
+    width:fit-content;
+    /* margin: 100px 300px 100px 300px; */
+}
+
+.connect-InnerClass{
+    /* text-align: -webkit-center; */
+      border: 0px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+}
+
+@media only screen and (max-width: 950px) {
+    .connect-InnerClass {
+        border: 0px solid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .connect-title {
+        font-size: 4rem;
+        margin-bottom: 10px;
+        margin-left: 6px;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .connect-mail-ic {
+        margin-right: 7px;
+    }
+    
+    .connect-mail {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .connect-number {
+        text-align: left;
+        font-size: 20px ;
+        font-weight: 500;
+    }
+    }
+    
