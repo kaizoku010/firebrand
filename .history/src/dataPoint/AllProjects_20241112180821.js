@@ -39,7 +39,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry.',
+       desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry. .',
       icon: Cwd,
       link: 'https://codewithdixon.com/'
 
