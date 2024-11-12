@@ -41,7 +41,7 @@ export default {
       location: 'Kampala, Uganda',
        desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry. Through our flexible learning options—whether remote or in-person—we aim to make quality tech education accessible to everyone with a passion for coding.',
       icon: Cwd,
-      link: 'https://codewithdixon.com/'
+      link: 'https://ibrahim3d.vercel.app/'
 
   },
   

@@ -26,7 +26,7 @@ import IIIMS from "../img/iiims.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
   import Signature from "../img/sig.png"
-  import Cwd from "../img/cwd.svg"
+  import Cwd from "../img/sig.png"
 
 
 export default {
@@ -40,8 +40,8 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
        desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry. Through our flexible learning options—whether remote or in-person—we aim to make quality tech education accessible to everyone with a passion for coding.',
-      icon: Cwd,
-      link: 'https://codewithdixon.com/'
+      icon: Ibrahim,
+      link: 'https://ibrahim3d.vercel.app/'
 
   },
   
