@@ -27,7 +27,7 @@ import IIIMS from "../img/iiims.png"
   import Oxen from "../img/ox.png"
   import Signature from "../img/sig.png"
   import Cwd from "../img/cwd.svg"
-  import NPM from "../img/2npm.png"
+  import Cwd from "../img/npm.png"
 
 
 export default {
@@ -41,8 +41,8 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
        desc: 'A simple, customizable mobile drawer component for React applications. Perfect for creating responsive menus or side panels in mobile views',
-      icon: NPM,
-      link: 'https://www.npmjs.com/package/nyx-drawer-menu'
+      icon: Cwd,
+      link: 'https://codewithdixon.com/'
 
   },
 

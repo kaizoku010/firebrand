@@ -27,7 +27,6 @@ import IIIMS from "../img/iiims.png"
   import Oxen from "../img/ox.png"
   import Signature from "../img/sig.png"
   import Cwd from "../img/cwd.svg"
-  import NPM from "../img/2npm.png"
 
 
 export default {
@@ -41,11 +40,23 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
        desc: 'A simple, customizable mobile drawer component for React applications. Perfect for creating responsive menus or side panels in mobile views',
-      icon: NPM,
-      link: 'https://www.npmjs.com/package/nyx-drawer-menu'
+      icon: Cwd,
+      link: 'https://codewithdixon.com/'
 
   },
 
+    {
+      id: 'ii2445',
+      title: "Code With Dixon",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Uganda',
+       desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry.',
+      icon: Cwd,
+      link: 'https://codewithdixon.com/'
+
+  },
+  
     {
       id: 'y2445',
       title: "Ibrahim 3D",
@@ -57,18 +68,6 @@ export default {
       link: 'https://ibrahim3d.vercel.app/'
 
   },
-
-  {
-    id: 'ii2445',
-    title: "Code With Dixon",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry.',
-    icon: Cwd,
-    link: 'https://codewithdixon.com/'
-
-},
 
     {
       id: '2445',

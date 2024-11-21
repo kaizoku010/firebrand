@@ -42,7 +42,7 @@ export default {
       location: 'Kampala, Uganda',
        desc: 'A simple, customizable mobile drawer component for React applications. Perfect for creating responsive menus or side panels in mobile views',
       icon: NPM,
-      link: 'https://www.npmjs.com/package/nyx-drawer-menu'
+      link: 'https://codewithdixon.com/'
 
   },
 
