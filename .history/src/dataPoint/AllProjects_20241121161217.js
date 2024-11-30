@@ -52,7 +52,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: 'Nsamba Ibrahim Matovu is a creative seasoned interior and landscape designer with a Bachelors degree in Interior and Landscape Design, with over 15 years of experience from Kyambogo University in Kampala (KYU). With a strong academic foundation...',
+       desc: 'Nsamba Ibrahim Matovu is a seasoned interior and landscape designer with a Bachelors degree in Interior and Landscape Design from Kyambogo University in Kampala (KYU). With a strong academic foundation...',
       icon: Ibrahim,
       link: 'https://ibrahim3d.vercel.app/'
 

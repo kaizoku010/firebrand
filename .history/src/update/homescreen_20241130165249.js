@@ -10,8 +10,8 @@ function homescreen() {
     <div class="homepage">
       <main className="main-content">
         <img id="userImage" src={UserImage} />
-        <h1 className="userName">Muneza K. Dixon</h1>
-        <h2 className="userRole"> Frontend Developer</h2>
+        <h1 className="userName">A. Dixon</h1>
+        <h2 className="userRole"> Software Developer</h2>
         <div className="site-holder">
           <Link to="/apps">
             <button id="btn-projects">

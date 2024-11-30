@@ -52,7 +52,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: 'Nsamba Ibrahim Matovu is a creative seasoned interior and landscape designer with a Bachelors degree in Interior and Landscape Design, with over 15 years of experience from Kyambogo University in Kampala (KYU). With a strong academic foundation...',
+       desc: 'Nsamba Ibrahim Matovu is a seasoned interior and landscape designer with a Bachelors degree in Interior and Landscape Design from Kyambogo University in Kampala (KYU). With a strong academic foundation...',
       icon: Ibrahim,
       link: 'https://ibrahim3d.vercel.app/'
 
@@ -69,17 +69,6 @@ export default {
     link: 'https://codewithdixon.com/'
 
 },
-{
-  id: '1085',
-  title: "Integrated Intelligence Information Management System",
-  techStacks: ["Under Maintenance"],
-  textColor: 'lightBlue',
-  location: 'Kampala, Ug',
-   desc: 'The Integrated Intelligence Information Management System is an artificial intelligence (AI) powered System (IIIMS) for Security Agencies in Uganda. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
-  icon: IIIMS,
-  link: 'https://iims.vercel.app/'
-
-},
 
     {
       id: '2445',
@@ -88,7 +77,7 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
        desc: 'The Dx slider is a customizable React Image slider npm package with smooth transitions and auto-play functionality. Best used for rendering smaller images into a carousel',
-      icon: NPM,
+      icon: N,
       link: 'https://www.npmjs.com/package/dx-slider'
 
   },
@@ -181,7 +170,17 @@ export default {
 
   },
 
+  {
+    id: '1085',
+    title: "Integrated Intelligence Information Management System",
+    techStacks: ["Under Maintenance"],
+    textColor: 'lightBlue',
+    location: 'Kampala, Ug',
+     desc: 'The Integrated Intelligence Information Management System is an artificial intelligence (AI) powered System (IIIMS) for Security Agencies in Uganda. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
+    icon: IIIMS,
+    link: 'https://iims.vercel.app/'
 
+},
 {
   id:"222",
   title: "Wuzi Africa",
