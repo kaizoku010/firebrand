@@ -42,7 +42,7 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
        desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
-      icon: SiSi,
+      icon: NPM,
       link: 'https://www.sisiai.io'
 
   },

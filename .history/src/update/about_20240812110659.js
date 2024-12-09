@@ -21,7 +21,7 @@ function about() {
     <main>
       <div className="about-container">
         <h1 className="about-title">
-          <span className="about-span">About</span> Kalanzi Dixon
+          <span className="about-span">About</span> Muneza Dixon
         </h1>
         <p className="about-text">
           Hello there! I'm truly honored to have you here. My name is Dixon, and

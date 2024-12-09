@@ -28,7 +28,6 @@ import IIIMS from "../img/iiims.png"
   import Signature from "../img/sig.png"
   import Cwd from "../img/cwd.svg"
   import NPM from "../img/2npm.png"
-  import SiSi from "../img/sisi.png"
 
 
 export default {
@@ -36,14 +35,14 @@ export default {
   allProjects: [
 
     {
-      id: 'ix3y2445',
-      title: "SiSi Ai",
+      id: 'ix3i2445',
+      title: "Nyx Mobile Drawer For Web",
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-       desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
-      icon: SiSi,
-      link: 'https://www.sisiai.io'
+       desc: 'A simple, customizable mobile drawer component for React applications. Perfect for creating responsive menus or side panels in mobile views',
+      icon: NPM,
+      link: 'https://www.npmjs.com/package/nyx-drawer-menu'
 
   },
 
