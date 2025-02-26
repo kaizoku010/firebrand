@@ -18,7 +18,6 @@ import MX5 from "../img/logo-png.png"
 import CH from "../img/ch.png"
 import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
-  // "homepage": "https://kaizoku010.github.io/firebrand",
   import CY_ from "../img/cy_logo.png"
   import DX from "../img/dx.png"
   import Skip from "../img/skip.png"
@@ -29,6 +28,7 @@ import IIIMS from "../img/iiims.png"
   import Cwd from "../img/cwd.svg"
   import NPM from "../img/2npm.png"
   import SiSi from "../img/sisi.png"
+  import kwetu from "../img/kwetu"
 
 
 export default {
@@ -43,7 +43,7 @@ export default {
       location: 'Kampala, Uganda',
        desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
       icon: SiSi,
-      link: 'https://www.sisiai.io'
+      link: 'sisi-sigma.vercel.app'
 
   },
 
