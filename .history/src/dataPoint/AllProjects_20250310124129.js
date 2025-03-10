@@ -48,6 +48,8 @@ export default {
   },
 
 
+
+
 {
   id: '1085',
   title: "Integrated Intelligence Information Management System",
@@ -119,6 +121,8 @@ export default {
     link: 'https://companyprofiles.vercel.app/'
 
 },
+
+
     {
       id: '145',
       title: "Sk!p (Mobile App port to web)",
@@ -143,6 +147,8 @@ export default {
       link: 'https://moxie5screen.vercel.app/'
 
   },
+
+
 {
   id:"222",
   title: "Wuzi Africa",
@@ -166,6 +172,7 @@ export default {
   link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
 
 },
+
     {
       id: '465',
       title: "Nusu",
@@ -177,6 +184,8 @@ export default {
       link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'
 
   },
+
+
   {
     id: '4642',
     title: 'Moxie 5 Marketing Agency',
@@ -185,6 +194,50 @@ export default {
     desc: "Moxie5 Marketing Agency is a full-service marketing powerhouse established in 2019, specializing in delivering results-oriented marketing solutions tailored to agents of development across Uganda. ",
     icon: MX5,
     link: 'https://moxie5agency.com/',
+  },
+
+
+  // {
+  //   id: '4442',
+  //   title: 'Mirembe Foundation',
+  //   techStacks: ["Online"],
+  //   location: 'Butambala, Uganda',
+  //   desc: "Mirembe Foundation is a registered CBO in Uganda, Butambala District which foundation operates a Vocational Skills Training Center.",
+  //   icon: Medica,
+  //   link: 'https://mirembefoundation.com/',
+  // },
+
+
+  // {
+  //   id: '7',
+  //   title: 'L’ampeire Stores',
+  //   backgroundColor: 'Orange',
+  //   techStacks: ["Under Maintenance"],
+  //   textColor: 'white',
+  //   location: 'Kampala, Ug',
+  //   desc: 'Is a leading player in Uganda’s fashion industry, they are more of an experimental workshop of ideas.',
+  //   icon: Lamp,
+  //   // link: 'https://lampeire.com/'
+  // },
+  // {
+  //   id: '342',
+  //   title: 'Sajadi Charity Foundation',
+  //   techStacks: ["Online"],
+  //   location: 'Kampala, Uganda',
+  //   desc: "we believe in the immense potential of Uganda's youth. Our mission is to nurture tomorrow's leaders through a multi-faceted approach that encompasses education, skill development, and community support. We invite you to join us in Building Futures, One Youth at a Time.",
+  //   icon: Saj,
+  //   link: 'http://sajadi.ug/',
+  // },
+  {
+    id: '4',
+    title: 'C & H Collection',
+    techStacks: ["Under Maintenance"],
+    backgroundColor: 'white',
+    textColor: 'red',
+    location: 'Kampala, Uganda',
+    desc: 'CHCollections offers a curated selection of high-quality, stylish clothing and accessories. Discover the latest trends and elevate your wardrobe with our unique fashion pieces. Shop online for an effortless and enjoyable shopping experience.',
+    icon: CH,
+   link: 'https://chcollections.ug/'
   },
   {
     id: '4',
@@ -254,6 +307,28 @@ export default {
       icon: VoxP,
       link: 'https://voxpopuli.ug/'
     },
+    // {
+    //   id: '42',
+    //   location: 'Kampala, Uganda',
+    //   title: 'Willapps Ug',
+    //   backgroundColor: 'white',
+    //   techStacks: ["Under Maintenance"],
+    //   textColor: 'black',
+    //   desc: 'With over 5 years of hands on experience in the digital space in Uganda, Willapps has grown to become a go to provider of IT solutions.',
+    //   icon: Willapp,
+    //   // link: 'https://willappsug.com/'
+    // },
+    // {
+    //   id: '3',
+    //   backgroundColor: 'white',
+    //   textColor: 'red',
+    //   location: 'London, UK',
+    //   techStacks: ["Under Maintenance"],
+    //   title: 'MissTinted',
+    //   desc: 'People buy products that make them feel amazing, and at TINTEDS they offer some of the most incredibly useful products.',
+    //   icon: misstintedLogo,
+    //   // link: 'http://misstinted.com/'
+    // },
 
     {
       id: '6',

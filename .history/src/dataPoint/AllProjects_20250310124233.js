@@ -119,6 +119,8 @@ export default {
     link: 'https://companyprofiles.vercel.app/'
 
 },
+
+
     {
       id: '145',
       title: "Sk!p (Mobile App port to web)",
@@ -143,6 +145,8 @@ export default {
       link: 'https://moxie5screen.vercel.app/'
 
   },
+
+
 {
   id:"222",
   title: "Wuzi Africa",
@@ -166,6 +170,7 @@ export default {
   link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
 
 },
+
     {
       id: '465',
       title: "Nusu",

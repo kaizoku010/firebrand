@@ -119,6 +119,8 @@ export default {
     link: 'https://companyprofiles.vercel.app/'
 
 },
+
+
     {
       id: '145',
       title: "Sk!p (Mobile App port to web)",
@@ -143,6 +145,8 @@ export default {
       link: 'https://moxie5screen.vercel.app/'
 
   },
+
+
 {
   id:"222",
   title: "Wuzi Africa",
@@ -166,6 +170,7 @@ export default {
   link:"https://cymorganz-kaizoku010s-projects.vercel.app/"
 
 },
+
     {
       id: '465',
       title: "Nusu",
@@ -177,6 +182,8 @@ export default {
       link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'
 
   },
+
+
   {
     id: '4642',
     title: 'Moxie 5 Marketing Agency',
@@ -186,6 +193,39 @@ export default {
     icon: MX5,
     link: 'https://moxie5agency.com/',
   },
+
+
+  // {
+  //   id: '4442',
+  //   title: 'Mirembe Foundation',
+  //   techStacks: ["Online"],
+  //   location: 'Butambala, Uganda',
+  //   desc: "Mirembe Foundation is a registered CBO in Uganda, Butambala District which foundation operates a Vocational Skills Training Center.",
+  //   icon: Medica,
+  //   link: 'https://mirembefoundation.com/',
+  // },
+
+
+  // {
+  //   id: '7',
+  //   title: 'L’ampeire Stores',
+  //   backgroundColor: 'Orange',
+  //   techStacks: ["Under Maintenance"],
+  //   textColor: 'white',
+  //   location: 'Kampala, Ug',
+  //   desc: 'Is a leading player in Uganda’s fashion industry, they are more of an experimental workshop of ideas.',
+  //   icon: Lamp,
+  //   // link: 'https://lampeire.com/'
+  // },
+  // {
+  //   id: '342',
+  //   title: 'Sajadi Charity Foundation',
+  //   techStacks: ["Online"],
+  //   location: 'Kampala, Uganda',
+  //   desc: "we believe in the immense potential of Uganda's youth. Our mission is to nurture tomorrow's leaders through a multi-faceted approach that encompasses education, skill development, and community support. We invite you to join us in Building Futures, One Youth at a Time.",
+  //   icon: Saj,
+  //   link: 'http://sajadi.ug/',
+  // },
   {
     id: '4',
     title: 'NWM Ltd',
