@@ -60,6 +60,22 @@ export default {
   },
 
 
+<<<<<<< HEAD
+=======
+  },
+
+//   {
+//     id: 'ii2445',
+//     title: "Code With Dixon",
+//     techStacks: ["online"],
+//     textColor: 'lightBlue',
+//     location: 'Kampala, Uganda',
+//      desc: 'CodeWithDixon is a unique learning platform dedicated to providing personalized, one-on-one mentorship in web development and cloud technology to students across Uganda. I believe that every learner deserves the opportunity to gain real-world, practical skills that open doors in the tech industry.',
+//     icon: Cwd,
+//     link: 'https://codewithdixon.com/'
+
+// },
+>>>>>>> 0cf93fd24d6a856cebea152ee41d74b265a29c97
 {
   id: '1085',
   title: "Integrated Intelligence Information Management System",
@@ -92,7 +108,7 @@ export default {
     location: 'Kampala, Uganda',
      desc: 'Welcome to sk!p Events, Your Dynamic Partner For Corporate Events in Kampala, Uganda Through Innovative Solutions That Transcend Traditional Boundaries',
     icon: Skip,
-    link: 'https://skip-web-app.vercel.app/'
+    link: 'https://skipug.app/'
   
   },
   
@@ -131,6 +147,17 @@ export default {
     link: 'https://companyprofiles.vercel.app/'
 
 },
+    {
+      id: '145',
+      title: "Sk!p (Mobile App port to web)",
+      techStacks: ["Under Maintenance"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Ug',
+       desc: 'This is a fusion of technologies strung together to create a custom selfcheckin system that comprises of more than one application. These involve 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
+      icon: Skip,
+      link: 'https://skipp-one.vercel.app/'
+
+  },
 
 
     {

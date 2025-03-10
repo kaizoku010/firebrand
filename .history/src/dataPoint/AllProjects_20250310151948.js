@@ -131,6 +131,17 @@ export default {
     link: 'https://companyprofiles.vercel.app/'
 
 },
+    {
+      id: '145',
+      title: "Sk!p (Mobile App port to web)",
+      techStacks: ["Under Maintenance"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Ug',
+       desc: 'This is a fusion of technologies strung together to create a custom selfcheckin system that comprises of more than one application. These involve 3 Android Apps, where each serves a different purpose, 2 React applications meant to monitor, create user/attendee data and meta data.',
+      icon: Skip,
+      link: 'https://skipp-one.vercel.app/'
+
+  },
 
 
     {
