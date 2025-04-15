@@ -55,17 +55,6 @@ export default {
 
   },
 
-  {
-    id: 'ix3y2445',
-    title: "Vimbos Fitness",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'Number one premier fitness trainer offering personalized training programs, group classes, and specialized fitness solutions to help you reach your goals.',
-    icon: vimbos,
-    link: 'https://vimbos-fitness.vercel.app/'
-
-},
 
   {
     id: 'x3y2445',
@@ -90,6 +79,54 @@ export default {
   link: 'https://takepart.vercel.app/'
 
 },
+{
+  id: 'ix3y2445l',
+  title: "Walu studio & solutions",
+  techStacks: ["online"],
+  textColor: 'lightBlue',
+  location: 'Kampala, Uganda',
+   desc: 'At Walu Solutions, we are dedicated to helping businesses grow through cutting-edge graphic design, online marketing, web design, and physical branding solutions.',
+  icon: wal,
+  link: 'https://walstudios.com/'
+
+},
+    {
+      id: 'ix3y2445i',
+      title: "CTY-Arica",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Uganda',
+       desc: 'We address the dual challenges of youth unemployment and environmental conservation through our core programs: students empowerment, sustainability education, and Play4Change.',
+      icon: cty,
+      link: 'https://cty-africa.org/'
+
+  },
+
+
+  {
+    id: 'ix3y2445',
+    title: "Vimbos Fitness",
+    techStacks: ["online"],
+    textColor: 'lightBlue',
+    location: 'Kampala, Uganda',
+     desc: 'Number one premier fitness trainer offering personalized training programs, group classes, and specialized fitness solutions to help you reach your goals.',
+    icon: vimbos,
+    link: 'https://vimbos-fitness.vercel.app/'
+
+},
+
+{
+  id: 'ix3y2445',
+  title: "Vimbos Fitness",
+  techStacks: ["online"],
+  textColor: 'lightBlue',
+  location: 'Kampala, Uganda',
+   desc: 'Number one premier fitness trainer offering personalized training programs, group classes, and specialized fitness solutions to help you reach your goals.',
+  icon: mazima,
+  link: 'https://mcdi.mazimacdi.org/'
+
+},
+
 //dont skip
   {
     id: 'ix3y2445',
@@ -200,46 +237,6 @@ export default {
       link: 'https://moxie5screen.vercel.app/'
 
   },
-
-
-
-
-  {
-    id: 'ix3y2445l',
-    title: "Walu studio & solutions",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'At Walu Solutions, we are dedicated to helping businesses grow through cutting-edge graphic design, online marketing, web design, and physical branding solutions.',
-    icon: wal,
-    link: 'https://walstudios.com/'
-  
-  },
-      {
-        id: 'ix3y2445i',
-        title: "CTY-Arica",
-        techStacks: ["online"],
-        textColor: 'lightBlue',
-        location: 'Kampala, Uganda',
-         desc: 'We address the dual challenges of youth unemployment and environmental conservation through our core programs: students empowerment, sustainability education, and Play4Change.',
-        icon: cty,
-        link: 'https://cty-africa.org/'
-  
-    },
-  
-  {
-    id: 'ix3y2445',
-    title: "Mazima CDI",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'Our aim is empowering people and particularly deprived and vulnerable children in Uganda by providing the means to improve their lives and the opportunity to become young adults,',
-    icon: mazima,
-    link: 'https://mcdi.mazimacdi.org/'
-  
-  },
-  
-
 {
   id:"222",
   title: "Wuzi Africa",

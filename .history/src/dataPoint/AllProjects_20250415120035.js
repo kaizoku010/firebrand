@@ -55,53 +55,31 @@ export default {
 
   },
 
-  {
-    id: 'ix3y2445',
-    title: "Vimbos Fitness",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'Number one premier fitness trainer offering personalized training programs, group classes, and specialized fitness solutions to help you reach your goals.',
-    icon: vimbos,
-    link: 'https://vimbos-fitness.vercel.app/'
-
-},
 
   {
     id: 'x3y2445',
-    title: "Musawo Pharmacy",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'A Medical Inventory Management System that is designed to streamline and automate the tracking, ordering, storing, and usage of medical supplies and equipment.',
-    icon: musawo,
-    link: 'https://musawo-pharmacy.vercel.app/'
-
-},
-
-{
-  id: 'ix3y2ew445',
-  title: "Take Part",
-  techStacks: ["online"],
-  textColor: 'lightBlue',
-  location: 'Kampala, Uganda',
-   desc: 'Tell Your Story UG is an exciting digital campaign designed to showcase the beauty, adventure, and culture of Uganda through the eyes of its travelers',
-  icon: take_aprt,
-  link: 'https://takepart.vercel.app/'
-
-},
-//dont skip
-  {
-    id: 'ix3y2445',
     title: "SiSi Ai",
     techStacks: ["online"],
     textColor: 'lightBlue',
     location: 'Kampala, Uganda',
-     desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
+     desc: 'A Medical Inventory Management System is a digital solution designed to streamline and automate the tracking, ordering, storing, and usage of medical supplies and equipment in healthcare facilities',
     icon: SiSi,
     link: 'sisi-sigma.vercel.app'
 
 },
+
+
+    {
+      id: 'ix3y2445',
+      title: "SiSi Ai",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Uganda',
+       desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
+      icon: SiSi,
+      link: 'sisi-sigma.vercel.app'
+
+  },
 
   {
       id: 'ix3i2445',
@@ -200,46 +178,6 @@ export default {
       link: 'https://moxie5screen.vercel.app/'
 
   },
-
-
-
-
-  {
-    id: 'ix3y2445l',
-    title: "Walu studio & solutions",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'At Walu Solutions, we are dedicated to helping businesses grow through cutting-edge graphic design, online marketing, web design, and physical branding solutions.',
-    icon: wal,
-    link: 'https://walstudios.com/'
-  
-  },
-      {
-        id: 'ix3y2445i',
-        title: "CTY-Arica",
-        techStacks: ["online"],
-        textColor: 'lightBlue',
-        location: 'Kampala, Uganda',
-         desc: 'We address the dual challenges of youth unemployment and environmental conservation through our core programs: students empowerment, sustainability education, and Play4Change.',
-        icon: cty,
-        link: 'https://cty-africa.org/'
-  
-    },
-  
-  {
-    id: 'ix3y2445',
-    title: "Mazima CDI",
-    techStacks: ["online"],
-    textColor: 'lightBlue',
-    location: 'Kampala, Uganda',
-     desc: 'Our aim is empowering people and particularly deprived and vulnerable children in Uganda by providing the means to improve their lives and the opportunity to become young adults,',
-    icon: mazima,
-    link: 'https://mcdi.mazimacdi.org/'
-  
-  },
-  
-
 {
   id:"222",
   title: "Wuzi Africa",
