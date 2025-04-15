@@ -9,7 +9,6 @@ import AppPage from './update/appsPage.js'
 import Blog from './update/blog.js'
 import Footer from '././update/footer.js'
 import Connect from './update/connect'
-import { Analytics } from "@vercel/analytics/react"
 
 
 function App () {
@@ -23,9 +22,6 @@ function App () {
           <Route path="/apps" element={<AppPage />} />
           <Route path="/about" element={<AboutDixon />} />
           <Route path="/blog" element={<Blog />} />
-          <Analytics />
-          {/* <SpeedInsights /> */}
-
           <Route path="/connect" element={<Connect />} />
 
      </Routes>

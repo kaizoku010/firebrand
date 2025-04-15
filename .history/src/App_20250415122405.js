@@ -9,6 +9,7 @@ import AppPage from './update/appsPage.js'
 import Blog from './update/blog.js'
 import Footer from '././update/footer.js'
 import Connect from './update/connect'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
 
 
