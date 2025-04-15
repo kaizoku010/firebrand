@@ -204,6 +204,7 @@ export default {
     id: 'ix3y2445l',
     title: "Walu studio & solutions",
     techStacks: ["online"],
+    textColor: 'lightBlue',
     location: 'Kampala, Uganda',
      desc: 'At Walu Solutions, we are dedicated to helping businesses grow through cutting-edge graphic design, online marketing, web design, and physical branding solutions.',
     icon: wal,
