@@ -9,7 +9,7 @@ import AppPage from './update/appsPage.js'
 import Blog from './update/blog.js'
 import Footer from '././update/footer.js'
 import Connect from './update/connect'
-import ScrollToTop from './components/ScrollToTop'
+
 
 // To hide specific products in a shop, you can either use built-in settings like changing "Catalog Visibility" in WooCommerce or using
 //  custom code or plugins to hide products based on user roles, categories, or search. For example, in WooCommerce,
@@ -32,7 +32,6 @@ function App () {
 
      </Routes>
         <Footer/>
-        <ScrollToTop />
       </div>
 
     </Router>

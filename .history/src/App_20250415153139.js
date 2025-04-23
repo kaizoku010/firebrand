@@ -32,7 +32,8 @@ function App () {
 
      </Routes>
         <Footer/>
-        <ScrollToTop />
+        <ScrollToTop /> {/* Add this component */}
+
       </div>
 
     </Router>

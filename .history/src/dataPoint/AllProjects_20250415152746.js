@@ -99,7 +99,282 @@ export default {
     location: 'Kampala, Uganda',
      desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
     icon: SiSi,
-    link: 'https://www.sisiai.io/'
+    link: 'import React, { useState, useEffect } from 'react';
+import './DocumentAnalysis.css';
+import * as pdfjsLib from 'pdfjs-dist';
+import mammoth from 'mammoth';
+
+const DocumentAnalysis = () => {
+  const [documents, setDocuments] = useState([]);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [dragActive, setDragActive] = useState(false);
+
+  // Load previously saved documents from localStorage
+  useEffect(() => {
+    const savedDocs = localStorage.getItem('case_documents');
+    if (savedDocs) {
+      setDocuments(JSON.parse(savedDocs));
+    }
+  }, []);
+
+  // Handle drag events for file upload
+  const handleDrag = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.type === "dragenter" || e.type === "dragover") {
+      setDragActive(true);
+    } else if (e.type === "dragleave") {
+      setDragActive(false);
+    }
+  };
+
+  // Read the content of different types of files
+  const readFileContent = (file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = async () => {
+        let content = '';
+        const fileType = file.type;
+
+        try {
+          if (fileType === 'application/pdf') {
+            content = await extractTextFromPdf(reader.result);
+          } else if (fileType === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
+            content = await extractTextFromDocx(reader.result);
+          } else {
+            content = reader.result;
+          }
+          resolve(content);
+        } catch (err) {
+          reject(err);
+        }
+      };
+      reader.onerror = reject;
+      reader.readAsArrayBuffer(file);
+    });
+  };
+
+  // Extract text from PDF using pdf.js
+  const extractTextFromPdf = async (arrayBuffer) => {
+    const pdf = await pdfjsLib.getDocument(arrayBuffer).promise;
+    let textContent = '';
+    for (let page = 1; page <= pdf.numPages; page++) {
+      const pageContent = await pdf.getPage(page).then(p => p.getTextContent());
+      textContent += pageContent.items.map(item => item.str).join(' ');
+    }
+    return textContent;
+  };
+
+  // Extract text from DOCX using Mammoth.js
+  const extractTextFromDocx = async (arrayBuffer) => {
+    const { value } = await mammoth.extractRawText({ arrayBuffer });
+    return value;
+  };
+
+  // Handle file uploads (drag and drop or file picker)
+  const handleFiles = async (files) => {
+    setIsAnalyzing(true);
+    const fileArray = Array.from(files);
+    const processedFiles = await Promise.all(
+      fileArray.map(async (file) => {
+        const content = await readFileContent(file);
+
+        const newDoc = {
+          id: `doc_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+          name: file.name,
+          type: file.type,
+          content: content,
+          uploadDate: new Date().toISOString(),
+          analysis: {},
+          linkedCases: [],
+          size: (file.size / 1024).toFixed(2) + ' KB',
+        };
+        return newDoc;
+      })
+    );
+
+    const updatedDocs = [...documents, ...processedFiles];
+    setDocuments(updatedDocs);
+    localStorage.setItem('case_documents', JSON.stringify(updatedDocs));
+
+    // Analyze documents after they are uploaded
+    await analyzeDocuments(processedFiles);
+    setIsAnalyzing(false);
+  };
+
+  // Drop event handler (for drag-and-drop)
+  const handleDrop = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDragActive(false);
+
+    const { files } = e.dataTransfer;
+    if (files && files.length) {
+      handleFiles(files);
+    }
+  };
+
+  // File upload button handler
+  const handleFileUpload = (e) => {
+    const { files } = e.target;
+    if (files && files.length) {
+      handleFiles(files);
+    }
+  };
+
+  // Pattern matching and analysis
+  const analyzeDocuments = async (docs) => {
+    const patterns = {
+      kidnapping: {
+        pattern: /\b(kidnap|abduct|ransom|hostage|kidnapped)\b/i,
+        description: "Potential kidnapping-related content detected"
+      },
+      fraud: {
+        pattern: /\b(fraud|scam|forge|counterfeit|deceive|embezzle)\b/i,
+        description: "Possible fraudulent activities mentioned"
+      },
+      theft: {
+        pattern: /\b(theft|steal|robbery|burglary|larceny)\b/i,
+        description: "Theft-related indicators found"
+      },
+      cybercrime: {
+        pattern: /\b(hack|malware|cyber|phishing|ransomware)\b/i,
+        description: "Cybercrime indicators detected"
+      },
+      violence: {
+        pattern: /\b(assault|violence|weapon|threat|attack)\b/i,
+        description: "Violent activity indicators found"
+      }
+    };
+
+    const updatedDocs = await Promise.all(docs.map(async (doc) => {
+      const analysis = {};
+      const linkedCases = [];
+      let textContent = doc.content;
+
+      // Pattern matching
+      Object.entries(patterns).forEach(([crime, { pattern, description }]) => {
+        if (pattern.test(textContent)) {
+          analysis[crime] = {
+            detected: true,
+            description,
+            matches: textContent.match(pattern)?.length || 0
+          };
+
+          // Find related cases
+          const cases = JSON.parse(localStorage.getItem('cases') || '[]');
+          const related = cases.filter(c => c.intelType.toLowerCase() === crime.toLowerCase());
+          linkedCases.push(...related);
+        }
+      });
+
+      return { ...doc, analysis, linkedCases };
+    }));
+
+    const allDocs = documents.map(existingDoc =>
+      updatedDocs.find(newDoc => newDoc.id === existingDoc.id) || existingDoc
+    );
+
+    setDocuments(allDocs);
+    localStorage.setItem('case_documents', JSON.stringify(allDocs));
+  };
+
+  // Handle document deletion
+  const handleDelete = (docId) => {
+    const updatedDocs = documents.filter(doc => doc.id !== docId);
+    setDocuments(updatedDocs);
+    localStorage.setItem('case_documents', JSON.stringify(updatedDocs));
+  };
+
+  return (
+    <div className="document-analysis">
+      <div
+        className={`upload-section ${dragActive ? 'drag-active' : ''}`}
+        onDragEnter={handleDrag}
+        onDragLeave={handleDrag}
+        onDragOver={handleDrag}
+        onDrop={handleDrop}
+      >
+        <h2>Document Analysis</h2>
+        <div className="upload-box">
+          <i className="fas fa-cloud-upload-alt"></i>
+          <p>Drag and drop files here or</p>
+          <input
+            type="file"
+            multiple
+            accept=".pdf,.docx,.doc,.txt"
+            onChange={handleFileUpload}
+            className="file-input"
+          />
+          <button className="upload-btn">Choose Files</button>
+        </div>
+      </div>
+
+      {isAnalyzing && (
+        <div className="analyzing-indicator">
+          <i className="fas fa-spinner fa-spin"></i>
+          <span>Analyzing documents...</span>
+        </div>
+      )}
+
+      <div className="documents-list">
+        {documents.map(doc => (
+          <div key={doc.id} className="document-item">
+            <div className="document-header">
+              <div className="document-info">
+                <i className="fas fa-file-alt"></i>
+                <h3>{doc.name}</h3>
+                <span className="document-size">{doc.size}</span>
+              </div>
+              <button
+                className="delete-btn"
+                onClick={() => handleDelete(doc.id)}
+              >
+                <i className="fas fa-trash"></i>
+              </button>
+            </div>
+
+            <div className="analysis-results">
+              <h4>Analysis Results:</h4>
+              {Object.entries(doc.analysis).length > 0 ? (
+                Object.entries(doc.analysis).map(([pattern, details]) => (
+                  <div key={pattern} className="pattern-tag">
+                    <span className="pattern-name">{pattern}</span>
+                    <span className="pattern-desc">{details.description}</span>
+                    <span className="pattern-matches">
+                      {details.matches} matches found
+                    </span>
+                  </div>
+                ))
+              ) : (
+                <p className="no-patterns">No significant patterns detected</p>
+              )}
+            </div>
+
+            {doc.linkedCases?.length > 0 && (
+              <div className="linked-cases">
+                <h4>Linked Cases:</h4>
+                {doc.linkedCases.map(case_ => (
+                  <div key={case_.id} className="linked-case">
+                    <i className="fas fa-link"></i>
+                    <div className="case-details">
+                      <span className="case-type">{case_.intelType}</span>
+                      <p className="case-desc">{case_.desc.substring(0, 100)}...</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default DocumentAnalysis;
+
+'
 
 },
 
@@ -164,6 +439,17 @@ export default {
 
 },
 
+{
+  id: 'ix3y2445',
+  title: "SiSi Ai",
+  techStacks: ["online"],
+  textColor: 'lightBlue',
+  location: 'Kampala, Uganda',
+   desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
+  icon: SiSi,
+  link: 'https://sisi-sigma.vercel.app/'
+
+},
 
   {
     id: '244rr5',
