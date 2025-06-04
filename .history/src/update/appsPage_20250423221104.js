@@ -6,7 +6,7 @@ import projectsData from "../dataPoint/AllProjects.js";
 
 function Apps() {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [filteredProjects, setFilteredProjects] = useState(projectsData.allProjects);
+  const [filteredProjects, setFilteredProjects] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [isLoading, setIsLoading] = useState(true);
 
@@ -34,36 +34,11 @@ function Apps() {
 
     // Filter by search term
     if (searchTerm) {
-      console.log('Search term:', searchTerm);
-      console.log('Before filter:', filtered.length);
-      const searchTermLower = searchTerm.toLowerCase();
-      
-      filtered = filtered
-        .map(project => {
-          // Calculate relevance score
-          let score = 0;
-          const title = project.title.toLowerCase();
-          
-          // Exact match in title
-          if (title === searchTermLower) score += 100;
-          // Starts with search term
-          else if (title.startsWith(searchTermLower)) score += 75;
-          // Contains search term in title
-          else if (title.includes(searchTermLower)) score += 50;
-          // Contains in description or location
-          else if (
-            project.desc.toLowerCase().includes(searchTermLower) ||
-            project.location.toLowerCase().includes(searchTermLower)
-          ) score += 25;
-          else score = 0;
-          
-          return { ...project, score };
-        })
-        .filter(project => project.score > 0) // Only keep relevant results
-        .sort((a, b) => b.score - a.score) // Sort by score
-        .map(({ score, ...project }) => project); // Remove the score property
-      
-      console.log('After filter:', filtered.length);
+      filtered = filtered.filter(project =>
+        project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        project.desc.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        project.location.toLowerCase().includes(searchTerm.toLowerCase())
+      );
     }
 
     setFilteredProjects(filtered);

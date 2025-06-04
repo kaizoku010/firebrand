@@ -35,8 +35,6 @@ import IIIMS from "../img/iiims.png"
   import cty from "../img/ct.png"
   import vimbos from "../img/vim.png"
   import mazima from "../img/mazima.png"
-  import Code from "../img/cod.png"
-  import Deriq from "../img/deriq.png"
 
 
 
@@ -54,7 +52,7 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
        desc: 'Code canvas is a study tool designed for students under codewithdixon to learn design, build, and preview stunning UI components with HTML & CSS',
-      icon: Code,
+      icon: IIIMS,
       link: 'https://code-cavas.vercel.app/'
     
     },
@@ -88,14 +86,14 @@ export default {
 
 
         {
-      id: '251085',
+      id: '21085',
       title: "Nyoni Holidays Africa",
-      techStacks: ["Under Maintenance"],
+      techStacks: ["Online"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: 'Nyoni is a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',
-      icon: Deriq,
-      link: 'https://nyonyiholidaysafrica.com/'
+       desc: 'We are a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',
+      icon: IIIMS,
+      link: 'https://code-cavas.vercel.app/'
     
     },
 

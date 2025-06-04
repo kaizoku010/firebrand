@@ -36,7 +36,7 @@ import IIIMS from "../img/iiims.png"
   import vimbos from "../img/vim.png"
   import mazima from "../img/mazima.png"
   import Code from "../img/cod.png"
-  import Deriq from "../img/deriq.png"
+  import Code from "../img/deriq.png"
 
 
 
@@ -88,13 +88,13 @@ export default {
 
 
         {
-      id: '251085',
+      id: '21085',
       title: "Nyoni Holidays Africa",
-      techStacks: ["Under Maintenance"],
+      techStacks: ["Online"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
        desc: 'Nyoni is a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',
-      icon: Deriq,
+      icon: IIIMS,
       link: 'https://nyonyiholidaysafrica.com/'
     
     },

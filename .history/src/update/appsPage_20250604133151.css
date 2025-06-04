@@ -45,7 +45,6 @@
 
 /* Hero Section */
 .hero-section {
-  display: none;
   position: relative;
   padding: 6rem 2rem 4rem;
   background: linear-gradient(135deg, #000 0%, #242229 100%);
@@ -398,7 +397,6 @@
   }
 
   .hero-section {
-    display: none;
     padding: 4rem 1rem 3rem;
     border-radius: 0 0 15% 15% / 10%;
   }
@@ -434,7 +432,7 @@
   }
 
   .controls-container {
-    padding: 1rem 1rem;
+    padding: 0 1rem;
   }
 
   .sites-holder {

@@ -11,11 +11,10 @@ function about() {
     "React Native",
     "ReactJs",
     "HTML/CSS",
-    "Vite",
-    "next.js",
     "Tailwind",
     "Bootstrap",
     "WordPress",
+    "Vite"
   ];
 
 

@@ -90,7 +90,7 @@ export default {
         {
       id: '251085',
       title: "Nyoni Holidays Africa",
-      techStacks: ["Under Maintenance"],
+      techStacks: ["Online"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
        desc: 'Nyoni is a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',

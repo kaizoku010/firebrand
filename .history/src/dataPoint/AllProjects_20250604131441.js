@@ -35,8 +35,6 @@ import IIIMS from "../img/iiims.png"
   import cty from "../img/ct.png"
   import vimbos from "../img/vim.png"
   import mazima from "../img/mazima.png"
-  import Code from "../img/cod.png"
-  import Deriq from "../img/deriq.png"
 
 
 
@@ -49,13 +47,13 @@ export default {
     
         {
       id: '21085',
-      title: "Code Canvas",
-      techStacks: ["Online"],
+      title: "Integrated Intelligence Information Management System",
+      techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: 'Code canvas is a study tool designed for students under codewithdixon to learn design, build, and preview stunning UI components with HTML & CSS',
-      icon: Code,
-      link: 'https://code-cavas.vercel.app/'
+       desc: 'The Integrated Intelligence Information Management System is an artificial intelligence (AI) powered System (IIIMS) for Security Agencies in Uganda. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
+      icon: IIIMS,
+      link: 'https://iims.vercel.app/'
     
     },
   
@@ -85,20 +83,6 @@ export default {
         link: 'https://www.npmjs.com/package/nyx-drawer-menu'
   
     },
-
-
-        {
-      id: '251085',
-      title: "Nyoni Holidays Africa",
-      techStacks: ["Under Maintenance"],
-      textColor: 'lightBlue',
-      location: 'Kampala, Ug',
-       desc: 'Nyoni is a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',
-      icon: Deriq,
-      link: 'https://nyonyiholidaysafrica.com/'
-    
-    },
-
     {
       id: 'ix3y2445',
       title: "",

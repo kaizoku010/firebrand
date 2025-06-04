@@ -38,30 +38,28 @@ function Apps() {
       console.log('Before filter:', filtered.length);
       const searchTermLower = searchTerm.toLowerCase();
       
+      // First filter, then sort by relevance
       filtered = filtered
-        .map(project => {
-          // Calculate relevance score
-          let score = 0;
-          const title = project.title.toLowerCase();
+        .filter(project =>
+          project.title.toLowerCase().includes(searchTermLower) ||
+          project.desc.toLowerCase().includes(searchTermLower) ||
+          project.location.toLowerCase().includes(searchTermLower)
+        )
+        .sort((a, b) => {
+          // Give higher priority to title matches
+          const aTitle = a.title.toLowerCase();
+          const bTitle = b.title.toLowerCase();
           
-          // Exact match in title
-          if (title === searchTermLower) score += 100;
-          // Starts with search term
-          else if (title.startsWith(searchTermLower)) score += 75;
-          // Contains search term in title
-          else if (title.includes(searchTermLower)) score += 50;
-          // Contains in description or location
-          else if (
-            project.desc.toLowerCase().includes(searchTermLower) ||
-            project.location.toLowerCase().includes(searchTermLower)
-          ) score += 25;
-          else score = 0;
+          // If title starts with search term, it should come first
+          if (aTitle.startsWith(searchTermLower) && !bTitle.startsWith(searchTermLower)) return -1;
+          if (!aTitle.startsWith(searchTermLower) && bTitle.startsWith(searchTermLower)) return 1;
           
-          return { ...project, score };
-        })
-        .filter(project => project.score > 0) // Only keep relevant results
-        .sort((a, b) => b.score - a.score) // Sort by score
-        .map(({ score, ...project }) => project); // Remove the score property
+          // If title includes search term, it should come next
+          if (aTitle.includes(searchTermLower) && !bTitle.includes(searchTermLower)) return -1;
+          if (!aTitle.includes(searchTermLower) && bTitle.includes(searchTermLower)) return 1;
+          
+          return 0;
+        });
       
       console.log('After filter:', filtered.length);
     }

@@ -11,8 +11,6 @@ function about() {
     "React Native",
     "ReactJs",
     "HTML/CSS",
-    "Vite",
-    "next.js",
     "Tailwind",
     "Bootstrap",
     "WordPress",
@@ -34,7 +32,7 @@ function about() {
           <br />
           <br />
           During my journey, I've had the pleasure of collaborating with
-          remarkable companies such as Willapps UG, NoniVie Uganda, Muraka Consults, Kwetu LLC, Moxie 5 Marketing Agency ,Savage Creative Africa,
+          remarkable companies such as Willapps UG, NoniVie Uganda, Muraka Consults, Kwetu LLC,Moxie 5 Marketing Agency ,Savage Creative Africa,
           NGRB, NWM, Tinteds, L'ampeire Stores, Sekpay,{" "}
           <a
             target="_blank"

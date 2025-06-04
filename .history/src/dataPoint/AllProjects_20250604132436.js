@@ -41,7 +41,6 @@ import IIIMS from "../img/iiims.png"
 
 
 export default {
-  // headings shld be #5747ff
 
 
   allProjects: [

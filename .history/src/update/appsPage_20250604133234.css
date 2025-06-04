@@ -398,7 +398,6 @@
   }
 
   .hero-section {
-    display: none;
     padding: 4rem 1rem 3rem;
     border-radius: 0 0 15% 15% / 10%;
   }
@@ -434,7 +433,7 @@
   }
 
   .controls-container {
-    padding: 1rem 1rem;
+    padding: 0 1rem;
   }
 
   .sites-holder {

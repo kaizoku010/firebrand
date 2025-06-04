@@ -12,7 +12,7 @@ function about() {
     "ReactJs",
     "HTML/CSS",
     "Vite",
-    "next.js",
+    "next.js"
     "Tailwind",
     "Bootstrap",
     "WordPress",
