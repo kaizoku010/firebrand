@@ -8,9 +8,9 @@ function Blog() {
     { id: 1, title: 'The Peacock Project (v7.4.1)', description: 'How to use: RUN Start Server.cmd and start the patcher.exe as well, then open HTMWA as admin.', image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_9R3lzRksnVnuWHeN9Mo7RWM1pOEd7CjKg&s" },
     {
       id: 2,
-      title: 'Stream Any Video from Your Computer to OBS and Your React App Using Docker',
-      description: 'Learn how to stream a local video to OBS and your React app using Dockerized RTMP and HLS servers.',
-      image: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1678134359606/03e5efb6-7ba8-48d9-bba2-4a2700e620e4.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
+      title: 'Streaming a Video from Your Computer to OBS and Your React App Using Docker',
+      description: 'Learn how to stream a local video to OBS and your React app using Dockerized RTMP and HLS servers. Step-by-step guide for developers and streamers.',
+      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6QvQw1kQGQw1kQGQw1kQGQ.png'
     },
   ];
 
@@ -96,7 +96,7 @@ function Blog() {
                 className="download-button-2"
                 onClick={() => window.location.href = '/blog-details'}
               >
-                Read More
+                Read Guide
               </button>
             )}
           </div>

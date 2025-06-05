@@ -11,7 +11,7 @@ import Footer from '././update/footer.js'
 import Connect from './update/connect'
 import ScrollToTop from './components/ScrollToTop'
 import BlogDetails from './components/BlogDetails.js'
-import Mobile from "./mobile.css"
+import Mobile from 
 // To hide specific products in a shop, you can either use built-in settings like changing "Catalog Visibility" in WooCommerce or using
 //  custom code or plugins to hide products based on user roles, categories, or search. For example, in WooCommerce,
 // you can set individual product "Catalog Visibility" to "Hidden", which will prevent them from appearing on the main shop page

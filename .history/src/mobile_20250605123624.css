@@ -1,0 +1,10 @@
+@media only screen and (max-width: 950px) {
+  .blog-article {
+    background: #fff;
+    max-width: 2rem;
+    margin: 40px auto 0 auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+}
+
+
+}

@@ -9,9 +9,9 @@ function BlogDetails() {
       <div className="blog-details">
         <article className="blog-article">
           <header className="blog-header">
-            <h1 className="blog-title">Stream A Video From Your Computer to OBS & Your React App Using Docker</h1>
+            <h1 className="blog-title">Stream A Video from Your Computer to OBS and Your React App Using Docker</h1>
             <div className="blog-meta">
-              <span>By Kalanzi Dixon</span> · <span>June 2025</span>
+              <span>By Dixon</span> · <span>June 2025</span>
             </div>
             <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1678134359606/03e5efb6-7ba8-48d9-bba2-4a2700e620e4.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Streaming with Docker" className="blog-details-img" />
           </header>

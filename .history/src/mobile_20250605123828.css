@@ -1,0 +1,21 @@
+@media only screen and (max-width: 950px) {
+  .blog-article {
+    background: #fff;
+    max-width: 25rem;
+    margin: 40px auto 0 auto;
+    padding: 1rem 2rem 2rem 2rem;
+}
+.blog-meta{
+    text-align: left;
+}
+
+  .blog-title {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .blog-details-img {
+    max-height: 180px;
+  }
+
+
+}

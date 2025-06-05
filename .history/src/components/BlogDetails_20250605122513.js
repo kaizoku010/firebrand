@@ -6,12 +6,13 @@ import "./blogdetails.css"
 function BlogDetails() {
   return (
     <>
+      <Header />
       <div className="blog-details">
         <article className="blog-article">
           <header className="blog-header">
-            <h1 className="blog-title">Stream A Video From Your Computer to OBS & Your React App Using Docker</h1>
+            <h1 className="blog-title">Streaming a Video from Your Computer to OBS and Your React App Using Docker</h1>
             <div className="blog-meta">
-              <span>By Kalanzi Dixon</span> · <span>June 2025</span>
+              <span>By Dixon</span> · <span>June 2025</span>
             </div>
             <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1678134359606/03e5efb6-7ba8-48d9-bba2-4a2700e620e4.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Streaming with Docker" className="blog-details-img" />
           </header>
@@ -63,30 +64,6 @@ function BlogDetails() {
               <li>Test your stream locally before sharing the HLS link.</li>
               <li>For production, consider securing your RTMP/HLS endpoints.</li>
             </ul>
-            <h2>Automate with PowerShell</h2>
-            <p>
-              You can automate the setup process using a PowerShell script. This script will stop and remove any existing RTMP container, start a new one on custom ports, and open the HLS stream in your browser automatically:
-            </p>
-            <pre className="blog-code">
-{`# Stop and remove existing container if it exists
-$containerName = "nginx-rtmp"
-if ((docker ps -a --format "{{.Names}}" | Select-String $containerName)) {
-    Write-Host "Stopping and removing existing container: $containerName"
-    docker stop $containerName | Out-Null
-    docker rm $containerName | Out-Null
-}
-
-# Run the container with high, safe ports
-Write-Host "Starting RTMP server on ports 51935 (RTMP) and 58888 (HLS)..."
-docker run --rm -d -p 51935:1935 -p 58888:80 --name $containerName my-nginx-rtmp-hls
-
-# Wait a second then open HLS stream URL
-Start-Sleep -Seconds 2
-Start-Process "http://localhost:58888/test.m3u8"`}
-            </pre>
-            <p>
-              Save this as <code>start-stream.ps1</code> and run it in PowerShell. This makes your workflow even faster and more reliable!
-            </p>
             <h2>Conclusion</h2>
             <p>
               With this setup, you can stream from your computer to both OBS and your React app using Dockerized RTMP and HLS servers. Happy streaming!
@@ -94,6 +71,7 @@ Start-Process "http://localhost:58888/test.m3u8"`}
           </section>
         </article>
       </div>
+      <Footer />
     </>
   )
 }

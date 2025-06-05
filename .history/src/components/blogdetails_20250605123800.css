@@ -1,0 +1,82 @@
+/* BlogDetails Modern Blog Post Styles */
+.blog-details {
+  background: #fafbfc;
+  min-height: 100vh;
+  padding: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.blog-title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.blog-meta {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-details-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.06);
+}
+
+.blog-section {
+  color: #23272f;
+  line-height: 1.7;
+  font-size: 1.08rem;
+}
+
+.blog-section h2 {
+  font-size: 1.35rem;
+  color: #141414;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+}
+
+
+.blog-article {
+    background: #fff;
+    max-width: 53rem;
+    margin: 40px auto 0 auto;
+    /* border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.07); */
+    padding: 2.5rem 2rem 2rem 2rem;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.blog-section ul {
+  margin: 0 0 1.5rem 1.5rem;
+  padding: 0;
+}
+
+.blog-section li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-code {
+  background: #f4f4f4;
+  color: #222;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  font-size: 1rem;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+}
+

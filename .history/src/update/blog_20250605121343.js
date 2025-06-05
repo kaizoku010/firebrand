@@ -96,7 +96,7 @@ function Blog() {
                 className="download-button-2"
                 onClick={() => window.location.href = '/blog-details'}
               >
-                Read More
+                Read Guide
               </button>
             )}
           </div>
