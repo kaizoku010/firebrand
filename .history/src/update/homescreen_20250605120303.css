@@ -61,7 +61,7 @@
 #btn-projects{
     color: rgb(255 255 255 / var(10%));
     padding-top: 0.75rem;
-    background-color: #fbb03b;
+       background-color: #fbb03b;
     opacity: 1;
     width: 7rem;
     font-size: .8rem;
@@ -69,7 +69,7 @@
     font-weight: 500;
     border-radius: 2.5rem;
     border-color: rgba(251, 176, 59, .27058823529411763);
-    padding: .5rem .5rem !important;
+    padding: .5rem .5rem;
 
 }
 
