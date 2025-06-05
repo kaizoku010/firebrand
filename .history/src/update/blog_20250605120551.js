@@ -10,7 +10,7 @@ function Blog() {
       id: 2,
       title: 'Streaming a Video from Your Computer to OBS and Your React App Using Docker',
       description: 'Learn how to stream a local video to OBS and your React app using Dockerized RTMP and HLS servers. Step-by-step guide for developers and streamers.',
-      image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6QvQw1kQGQw1kQGQw1kQGQ.png'
+      image: 'https://user-images.githubusercontent.com/streaming-docker-guide.png'
     },
   ];
 
@@ -79,26 +79,17 @@ function Blog() {
       <div className="blog-grid">
         {blogs.map((blog) => (
           <div key={blog.id} className="blog-item">
-            <img src={blog.image} alt={blog.title} className="blog-item-image" />
+            <img src={PP} alt="Peacock Server" className="blog-item-image" />
             <h2 className="blog-item-title">{blog.title}</h2>
             <p className="blog-item-description">{blog.description}</p>
-            {/* Button that triggers the download or opens the guide */}
-            {blog.id === 1 ? (
-              <button
-                className="download-button-2"
-                onClick={handleDownload}
-                disabled={isDownloading}
-              >
-                {isDownloading ? 'Downloading...' : 'Download server.zip'}
-              </button>
-            ) : (
-              <button
-                className="download-button-2"
-                onClick={() => window.location.href = '/blog-details'}
-              >
-                Read Guide
-              </button>
-            )}
+            {/* Button that triggers the download */}
+            <button
+              className="download-button-2"
+              onClick={handleDownload}
+              disabled={isDownloading} // Disable button when downloading
+            >
+              {isDownloading ? 'Downloading...' : 'Download server.zip'}
+            </button>
           </div>
         ))}
         
