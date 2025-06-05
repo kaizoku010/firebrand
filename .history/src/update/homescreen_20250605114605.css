@@ -50,7 +50,7 @@
     padding-left: 1.5rem;
     flex-wrap: nowrap;
     padding-right: 1.5rem;
-    gap: .5rem;
+    gap: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     justify-content: center;
@@ -64,7 +64,7 @@
     background-color: #fbb03b;
     padding-bottom: 0.75rem;
     opacity: 1;
-        width: 7rem;
+    line-height: 1.375;
     color: black;
     font-weight: 500;
     border-radius: 2.5rem;
@@ -82,6 +82,7 @@
 .project-ic{
     height:1rem;
     padding-right: 5px;
+
     padding-left: 5px;
     margin-bottom: 5px !important;
 }
@@ -89,15 +90,16 @@
 #btn-code{
 background-color:  rgb(17 24 39);
 color: rgb(255 255 255 / var(10%));
-    opacity: 1;
-    line-height: 1.375;
-    color: #fff;
-        width: 7rem;
-    font-weight: 500;
-    border-radius: 2.5rem;
-    border-color: rgba(251, 176, 59, 
-    .27058823529411763);
-    padding: .5rem .5rem;
+padding-top: 0.75rem;
+padding-bottom: 0.75rem;
+opacity: 1;
+line-height: 1.375;
+color: white;
+font-weight: 500;
+border-radius: 2.5rem;
+border-color: #fbb03b45;
+padding-left: 2rem;
+padding-right: 2rem;
 }
 
 #btn-code:hover{

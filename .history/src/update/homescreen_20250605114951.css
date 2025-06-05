@@ -64,7 +64,8 @@
     background-color: #fbb03b;
     padding-bottom: 0.75rem;
     opacity: 1;
-        width: 7rem;
+    line-height: 1.375;
+    
     color: black;
     font-weight: 500;
     border-radius: 2.5rem;
