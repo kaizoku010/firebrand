@@ -36,7 +36,6 @@ import IIIMS from "../img/iiims.png"
   import vimbos from "../img/vim.png"
   import mazima from "../img/mazima.png"
   import Code from "../img/cod.png"
-  import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
 
 
@@ -107,8 +106,8 @@ export default {
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
        desc: 'Nonivie is not just a place; but a sanctuary where luxury takes center stage.Our purpose is clear; to create a luxurious and transcendent experience that seemlessly blends opulence, culinary mastery, and vibrant nightlife.',
-      icon: Noni,
-      link: 'https://nonivie.vercel.app/'
+      icon: Deriq,
+      link: 'https://nyonyiholidaysafrica.com/'
     
     },
 
@@ -120,7 +119,7 @@ export default {
       location: 'Kampala, Uganda',
        desc: 'Africa faces unique and complex challenges—from rapid urbanization and energy access to security and resource management. At SiSi AI, we harness the power of Artificial Intelligence to create innovative solutions tailored to these realities, driving progress across critical sectors such as defense, energy, infrastructure, and public services',
       icon: SiSi,
-      link: 'https://sisi-sigma.vercel.app/'
+      link: 'https://www.sisiai.io/'
   
   },
 

@@ -301,7 +301,7 @@ export default {
       location: 'Kampala, Ug',
       desc: 'Nusu is a simple financial assistant that enables you or your business to keep track of its finances.',
       icon: NusuLogo,
-      link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'
+      link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'`
 
   },
   {
