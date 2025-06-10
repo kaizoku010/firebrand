@@ -19,7 +19,9 @@ function BlogDetails() {
             <h2>Overview</h2>
             <p>
             Have you wanted to stream a video to your own platform, it could be a website, or mobile app because sometime you may want to stream a video to a private group of people, or maybe a one-time event, 
-            Here is a guide to a workflow on how to leverage  Docker, OBS Studio and your custom application, nginx-rtmp, and HLS. Perfect for live events, tutorials, or 
+            Here is a guide to a workflow on how to leverage OBS Studio and your custom application
+               This guide walks you through a modern workflow using Docker, 
+               nginx-rtmp, and HLS. Perfect for live events, tutorials, or 
                custom streaming solutions!
             </p>
             <h2>What You'll Need</h2>

@@ -9,7 +9,7 @@ function BlogDetails() {
       <div className="blog-details">
         <article className="blog-article">
           <header className="blog-header">
-            <h1 className="blog-title">Stream Any Video From OBS To Your React App Using Docker</h1>
+            <h1 className="blog-title">Stream Any Video From OBS to Your React App Using Docker</h1>
             <div className="blog-meta">
               <span>By Kalanzi Dixon</span> · <span>June 2025</span>
             </div>
@@ -18,9 +18,7 @@ function BlogDetails() {
           <section className="blog-section">
             <h2>Overview</h2>
             <p>
-            Have you wanted to stream a video to your own platform, it could be a website, or mobile app because sometime you may want to stream a video to a private group of people, or maybe a one-time event, 
-            Here is a guide to a workflow on how to leverage  Docker, OBS Studio and your custom application, nginx-rtmp, and HLS. Perfect for live events, tutorials, or 
-               custom streaming solutions!
+              Want to stream a video from your computer to both OBS Studio and your React app? This guide walks you through a modern workflow using Docker, nginx-rtmp, and HLS. Perfect for live events, tutorials, or custom streaming solutions!
             </p>
             <h2>What You'll Need</h2>
             <ul>

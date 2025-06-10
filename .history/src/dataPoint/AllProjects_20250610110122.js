@@ -55,7 +55,7 @@ export default {
       techStacks: ["Online"],
       textColor: 'lightBlue',
       location: ' Kirchberg, Luxembourg',
-       desc: 'This is a web-based game that is designed to make fundrising participation at sembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',
+       desc: 'The web-base game that is designed to make fundrising participation at SembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',
       icon: sembeza,
       link: 'https://200club.vercel.app/'
     
