@@ -38,7 +38,6 @@ import IIIMS from "../img/iiims.png"
   import Code from "../img/cod.png"
   import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
-  import Gymie from "../img/gymies.svg"
 
 
 
@@ -48,20 +47,6 @@ export default {
 
   allProjects: [
 
-
-
-    {
-      id: '9985',
-      title: "Gymie",
-      techStacks: ["Under Maintenance"],
-      textColor: 'lightBlue',
-      location: 'Kampala, Ug',
-       desc: 'Connect with like-minded fitness enthusiasts and find the perfect workout partner to achieve your goals together.',
-      icon: Gymie,
-      link: 'https://gymbuddy-ruby.vercel.app/'
-    
-    },
-  
 
   
   
@@ -202,19 +187,6 @@ export default {
     link: 'https://skip-web-app.vercel.app/'
   
   },
-
-
-          {
-      id: '21085',
-      title: "The 200Club Game",
-      techStacks: ["Online"],
-      textColor: 'lightBlue',
-      location: ' Kirchberg, Luxembourg',
-       desc: 'This is a web-based game that is designed to make fundrising participation at sembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',
-      icon: sembeza,
-      link: 'https://200club.vercel.app/'
-    
-    },
   
   {
     id: '445',

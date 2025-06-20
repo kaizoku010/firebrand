@@ -38,7 +38,6 @@ import IIIMS from "../img/iiims.png"
   import Code from "../img/cod.png"
   import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
-  import Gymie from "../img/gymies.svg"
 
 
 
@@ -48,17 +47,15 @@ export default {
 
   allProjects: [
 
-
-
     {
-      id: '9985',
-      title: "Gymie",
+      id: '1085',
+      title: "Integrated Intelligence Information Management System",
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
-       desc: 'Connect with like-minded fitness enthusiasts and find the perfect workout partner to achieve your goals together.',
-      icon: Gymie,
-      link: 'https://gymbuddy-ruby.vercel.app/'
+       desc: 'The Integrated Intelligence Information Management System is an artificial intelligence (AI) powered System (IIIMS) for Security Agencies in Uganda. The system is designed to address the challenge of information overload and optimize the utilization of intelligence information. ',
+      icon: IIIMS,
+      link: 'https://iims.vercel.app/'
     
     },
   

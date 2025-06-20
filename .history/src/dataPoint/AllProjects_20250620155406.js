@@ -51,13 +51,13 @@ export default {
 
 
     {
-      id: '9985',
+      id: '1085',
       title: "Gymie",
       techStacks: ["Under Maintenance"],
       textColor: 'lightBlue',
       location: 'Kampala, Ug',
        desc: 'Connect with like-minded fitness enthusiasts and find the perfect workout partner to achieve your goals together.',
-      icon: Gymie,
+      icon: IIIMS,
       link: 'https://gymbuddy-ruby.vercel.app/'
     
     },

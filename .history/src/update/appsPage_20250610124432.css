@@ -19,6 +19,7 @@
   overflow-x: hidden;
 }
 
+/* Loading Animation */
 .loading-container {
   display: flex;
   flex-direction: column;
