@@ -208,7 +208,7 @@ export default {
           {
       id: '21085',
       title: "The 200Club Game",
-      techStacks: ["online"],
+      techStacks: ["Online"],
       textColor: 'lightBlue',
       location: ' Kirchberg, Luxembourg',
        desc: 'This is a web-based game that is designed to make fundrising participation at sembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',

@@ -39,7 +39,6 @@ import IIIMS from "../img/iiims.png"
   import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
   import Gymie from "../img/gymies.svg"
-  import AKt from "../img/akiba.png"
 
 
 
@@ -51,17 +50,17 @@ export default {
 
 
 
-    {
-      id: '94985',
-      title: "AKT API V1",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Tokyo, Japan',
-       desc: 'This is an API documentation portal for the AKT-View API|V1. It providing detailed information on endpoints, versioning and etc.',
-      icon: AKt,
-      link: 'https://akt-api-v1-theta.vercel.app/'
+    // {
+    //   id: '9985',
+    //   title: "Gymie",
+    //   techStacks: ["Under Maintenance"],
+    //   textColor: 'lightBlue',
+    //   location: 'Kampala, Ug',
+    //    desc: 'Connect with like-minded fitness enthusiasts and find the perfect workout partner to achieve your goals together.',
+    //   icon: Gymie,
+    //   link: 'https://akt-api-v1-theta.vercel.app/'
     
-    },
+    // },
   
 
   
@@ -208,7 +207,7 @@ export default {
           {
       id: '21085',
       title: "The 200Club Game",
-      techStacks: ["online"],
+      techStacks: ["Online"],
       textColor: 'lightBlue',
       location: ' Kirchberg, Luxembourg',
        desc: 'This is a web-based game that is designed to make fundrising participation at sembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',
