@@ -21,7 +21,7 @@ import IIIMS from "../img/iiims.png"
   import CY_ from "../img/cy_logo.png"
   import DX from "../img/dx.png"
   import Skip from "../img/skip.png"
-  import Ibrahim from "../img/ibra.png"
+  import Muraka from "../img/muraka.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
   import Signature from "../img/sig.png"
@@ -38,6 +38,8 @@ import IIIMS from "../img/iiims.png"
   import Code from "../img/cod.png"
   import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
+  import Gymie from "../img/gymies.svg"
+  import AKt from "../img/akt.png"
 
 
 
@@ -48,23 +50,31 @@ export default {
   allProjects: [
 
 
-
+    
     {
-      id: '1085',
-      title: "Gymie",
-      techStacks: ["Under Maintenance"],
+      id: '94985',
+      title: "AKT API V1",
+      techStacks: ["online"],
       textColor: 'lightBlue',
-      location: 'Kampala, Ug',
-       desc: '',
-      icon: IIIMS,
-      link: 'https://iims.vercel.app/'
+      location: 'Tokyo, Japan',
+       desc: 'This is an API documentation portal for the AKT-View API|V1. It providing detailed information on endpoints, versioning and etc.',
+      icon: AKt,
+      link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
-  
 
-  
-  
+    {
+      id: '94985',
+      title: "AKT API V1",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Tokyo, Japan',
+       desc: 'This is an API documentation portal for the AKT-View API|V1. It providing detailed information on endpoints, versioning and etc.',
+      icon: AKt,
+      link: 'https://akt-api-v1-theta.vercel.app/'
     
+    },
+
     {
       id: '1085',
       title: "Integrated Intelligence Information Management System",
@@ -128,6 +138,8 @@ export default {
   
   },
 
+  //Muraka Consults is a digital services company focused on designing and delivering technology-driven solutions that address social challenges.
+
     {
       id: 'ixy2445',
       title: "Sembeza Africa Shop",
@@ -140,6 +152,18 @@ export default {
 
   },
 
+
+    {
+      id: 'ix3i2w45',
+      title: "Muraka Consults Uganda",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Uganda',
+       desc: 'Muraka Consults is a digital services company focused on designing and delivering technology-driven solutions that address social challenges.',
+      icon: Muraka,
+      link: 'https://muraka-consult.vercel.app'
+  
+  },
 
 
   {
@@ -206,7 +230,7 @@ export default {
           {
       id: '21085',
       title: "The 200Club Game",
-      techStacks: ["Online"],
+      techStacks: ["online"],
       textColor: 'lightBlue',
       location: ' Kirchberg, Luxembourg',
        desc: 'This is a web-based game that is designed to make fundrising participation at sembezaAfrica easy and enjoyable , encouraging more people to support SembezaAfrica\'s charitable projects.',

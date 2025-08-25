@@ -21,7 +21,7 @@ import IIIMS from "../img/iiims.png"
   import CY_ from "../img/cy_logo.png"
   import DX from "../img/dx.png"
   import Skip from "../img/skip.png"
-  import Ibrahim from "../img/ibra.png"
+  import Muraka from "../img/muraka.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
   import Signature from "../img/sig.png"
@@ -39,7 +39,8 @@ import IIIMS from "../img/iiims.png"
   import Noni from "../img/noni.png"
   import Deriq from "../img/deriq.png"
   import Gymie from "../img/gymies.svg"
-  import AKt from "../img/akiba.png"
+  import AKt from "../img/akt.png"
+  import Workflow from "../img/workflow.svg"
 
 
 
@@ -50,6 +51,18 @@ export default {
   allProjects: [
 
 
+    
+    {
+      id: '94985e',
+      title: "Workflow",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Tokyo, Japan',
+       desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
+      icon: Workflow,
+      link: 'https://workflow-klgj.vercel.app/'
+    
+    },
 
     {
       id: '94985',
@@ -62,11 +75,7 @@ export default {
       link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
-  
 
-  
-  
-    
     {
       id: '1085',
       title: "Integrated Intelligence Information Management System",
@@ -130,6 +139,8 @@ export default {
   
   },
 
+  //Muraka Consults is a digital services company focused on designing and delivering technology-driven solutions that address social challenges.
+
     {
       id: 'ixy2445',
       title: "Sembeza Africa Shop",
@@ -142,6 +153,18 @@ export default {
 
   },
 
+
+    {
+      id: 'ix3i2w45',
+      title: "Muraka Consults Uganda",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Kampala, Uganda',
+       desc: 'Muraka Consults is a digital services company focused on designing and delivering technology-driven solutions that address social challenges.',
+      icon: Muraka,
+      link: 'https://muraka-consult.vercel.app'
+  
+  },
 
 
   {
