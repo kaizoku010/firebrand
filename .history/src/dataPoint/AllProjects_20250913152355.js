@@ -41,7 +41,7 @@ import IIIMS from "../img/iiims.png"
   import Gymie from "../img/gymies.svg"
   import AKt from "../img/akt.png"
   import Workflow from "../img/workflow.svg"
-  import Estates from "../img/estates.png"
+  import Workflow from "../img/es"
 
 
 
@@ -58,8 +58,8 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Uganda, Kampala',
-       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
-      icon: Estates,
+       desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
+      icon: Workflow,
       link: 'https://estates.realevr.com/'
     
     },

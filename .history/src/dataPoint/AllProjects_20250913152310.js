@@ -41,7 +41,6 @@ import IIIMS from "../img/iiims.png"
   import Gymie from "../img/gymies.svg"
   import AKt from "../img/akt.png"
   import Workflow from "../img/workflow.svg"
-  import Estates from "../img/estates.png"
 
 
 
@@ -54,13 +53,13 @@ export default {
    
     {
       id: '94985e',
-      title: "Realevr (Estates)",
+      title: "Realevr )(",
       techStacks: ["online"],
       textColor: 'lightBlue',
-      location: 'Uganda, Kampala',
-       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
-      icon: Estates,
-      link: 'https://estates.realevr.com/'
+      location: 'Tokyo, Japan',
+       desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
+      icon: Workflow,
+      link: 'https://workflow-klgj.vercel.app/'
     
     },
     

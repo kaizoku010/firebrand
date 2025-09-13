@@ -58,8 +58,8 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Uganda, Kampala',
-       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
-      icon: Estates,
+       desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
+      icon: Workflow,
       link: 'https://estates.realevr.com/'
     
     },
