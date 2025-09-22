@@ -20,7 +20,7 @@ import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
 import CY_ from "../img/cy_logo.png"
 import DX from "../img/dx.png"
-import Skip from "../img/skip.png"
+  import Skip from "../img/skip.png"
   import Muraka from "../img/muraka.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
@@ -51,6 +51,18 @@ export default {
 
   allProjects: [
 
+   
+    {
+      id: '94985e',
+      title: "Realevr (Estates)",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Uganda, Kampala',
+       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
+      icon: Estates,
+      link: 'https://estates.realevr.com/'
+    
+    },
     
     {
       id: '94985e',
@@ -60,7 +72,7 @@ export default {
       location: 'Tokyo, Japan',
        desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
       icon: Workflow,
-      link: 'https://workflow-v2-mu.vercel.app/'
+      link: 'https://workflow-klgj.vercel.app/'
     
     },
 
@@ -75,20 +87,6 @@ export default {
       link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
-
-
-          {
-      id: '94985e',
-      title: "Realevr (Estates)",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Uganda, Kampala',
-       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
-      icon: Estates,
-      link: 'https://estates.realevr.com/'
-    
-    },
-
 
     {
       id: '1085',

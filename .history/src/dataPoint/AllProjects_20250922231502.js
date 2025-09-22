@@ -64,20 +64,7 @@ export default {
     
     },
 
-    {
-      id: '94985',
-      title: "AKT API V1",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Tokyo, Japan',
-       desc: 'This is an API documentation portal for the AKT-View API|V1. It providing detailed information on endpoints, versioning and etc.',
-      icon: AKt,
-      link: 'https://akt-api-v1-theta.vercel.app/'
-    
-    },
-
-
-          {
+      {
       id: '94985e',
       title: "Realevr (Estates)",
       techStacks: ["online"],
@@ -89,6 +76,17 @@ export default {
     
     },
 
+    {
+      id: '94985',
+      title: "AKT API V1",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Tokyo, Japan',
+       desc: 'This is an API documentation portal for the AKT-View API|V1. It providing detailed information on endpoints, versioning and etc.',
+      icon: AKt,
+      link: 'https://akt-api-v1-theta.vercel.app/'
+    
+    },
 
     {
       id: '1085',

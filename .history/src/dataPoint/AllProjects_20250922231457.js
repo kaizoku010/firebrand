@@ -51,6 +51,8 @@ export default {
 
   allProjects: [
 
+   
+  
     
     {
       id: '94985e',
@@ -64,6 +66,8 @@ export default {
     
     },
 
+    
+
     {
       id: '94985',
       title: "AKT API V1",
@@ -75,20 +79,6 @@ export default {
       link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
-
-
-          {
-      id: '94985e',
-      title: "Realevr (Estates)",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Uganda, Kampala',
-       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
-      icon: Estates,
-      link: 'https://estates.realevr.com/'
-    
-    },
-
 
     {
       id: '1085',
