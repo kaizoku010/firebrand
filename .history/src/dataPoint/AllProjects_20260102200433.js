@@ -18,9 +18,9 @@ import MX5 from "../img/logo-png.png"
 import CH from "../img/ch.png"
 import Saj from "../img/sajadi.png"
 import IIIMS from "../img/iiims.png" 
-  import CY_ from "../img/cy_logo.png"
-  import DX from "../img/dx.png"
-  import Skip from "../img/skip.png"
+import CY_ from "../img/cy_logo.png"
+import DX from "../img/dx.png"
+import Skip from "../img/skip.png"
   import Muraka from "../img/muraka.png"
   import Logo from "../img/logo.png"
   import Oxen from "../img/ox.png"
@@ -41,28 +41,30 @@ import IIIMS from "../img/iiims.png"
   import Gymie from "../img/gymies.svg"
   import AKt from "../img/akt.png"
   import Workflow from "../img/workflow.svg"
+  import Estates from "../img/estates.png"
+  import Sumicon from "../img/sum.png"
 
 
 
 export default {
   // headings shld be #5747ff
-
-
+  
   allProjects: [
 
-   
+    
     {
-      id: '94985e',
-      title: "Realevr (Estates)",
+      id: 'qq4985e',
+      title: "Aime Mentoring",
       techStacks: ["online"],
       textColor: 'lightBlue',
-      location: 'Ug, Kampala',
+      location: 'Australia, Sydney',
        desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
       icon: Workflow,
-      link: 'https://workflow-klgj.vercel.app/'
+      link: 'https://workflow-v2-mu.vercel.app/'
     
     },
-    
+
+        
     {
       id: '94985e',
       title: "Workflow",
@@ -71,9 +73,11 @@ export default {
       location: 'Tokyo, Japan',
        desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
       icon: Workflow,
-      link: 'https://workflow-klgj.vercel.app/'
+      link: 'https://workflow-v2-mu.vercel.app/'
     
     },
+
+
 
     {
       id: '94985',
@@ -86,6 +90,32 @@ export default {
       link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
+
+
+      {
+      id: '94985e',
+      title: "Sumic-online B2B",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Uganda, kampala',
+       desc: 'Connect with a variety of suppliers with third-party-verified credentials and capabilities. Look for the "Verified" logo to begin sourcing with experienced suppliers your business could rely on',
+      icon: Sumicon,
+      link: 'https://sumiconline.vercel.app'
+    
+    },
+
+          {
+      id: '94985e',
+      title: "Realevr (Estates)",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Uganda, Kampala',
+       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
+      icon: Estates,
+      link: 'https://estates.realevr.com/'
+    
+    },
+
 
     {
       id: '1085',
@@ -137,6 +167,8 @@ export default {
       link: 'https://nonivie.vercel.app/'
     
     },
+
+    
 
     {
       id: 'ix3y2445',
@@ -357,15 +389,7 @@ export default {
       link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'
 
   },
-  {
-    id: '4642',
-    title: 'Moxie 5 Marketing Agency',
-    techStacks: ["online"],
-    location: 'Kampala, Uganda',
-    desc: "Moxie5 Marketing Agency is a full-service marketing powerhouse established in 2019, specializing in delivering results-oriented marketing solutions tailored to agents of development across Uganda. ",
-    icon: MX5,
-    link: 'https://moxie5agency.com/',
-  },
+
   {
     id: '4',
     title: 'NWM Ltd',

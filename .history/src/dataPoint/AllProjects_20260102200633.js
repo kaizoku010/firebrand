@@ -42,18 +42,30 @@ import Skip from "../img/skip.png"
   import AKt from "../img/akt.png"
   import Workflow from "../img/workflow.svg"
   import Estates from "../img/estates.png"
+  import Sumicon from "../img/sum.png"
+  import Sumicon from "../img/sum.png"
 
 
 
 export default {
   // headings shld be #5747ff
-
-
+  
   allProjects: [
 
-   
-  
     
+    {
+      id: 'qq4985e',
+      title: "Aime Mentoring",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Australia, Sydney',
+       desc: 'A digital nation founded by AIME and a network of networks, an unlikely group of human, non-human and imagined beings that knew that the intelligence needed for the scale of the human problems...',
+      icon: Workflow,
+      link: 'https://www.aimementoring.com/'
+    
+    },
+
+        
     {
       id: '94985e',
       title: "Workflow",
@@ -66,7 +78,7 @@ export default {
     
     },
 
-    
+
 
     {
       id: '94985',
@@ -79,6 +91,32 @@ export default {
       link: 'https://akt-api-v1-theta.vercel.app/'
     
     },
+
+
+      {
+      id: '94985e',
+      title: "Sumic-online B2B",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Uganda, kampala',
+       desc: 'Connect with a variety of suppliers with third-party-verified credentials and capabilities. Look for the "Verified" logo to begin sourcing with experienced suppliers your business could rely on',
+      icon: Sumicon,
+      link: 'https://sumiconline.vercel.app'
+    
+    },
+
+          {
+      id: '94985e',
+      title: "Realevr (Estates)",
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Uganda, Kampala',
+       desc: "Experience a seamless real estate journey using VR tailored to your unique needs, where every home search leads to a place that was made specifically just for you",
+      icon: Estates,
+      link: 'https://estates.realevr.com/'
+    
+    },
+
 
     {
       id: '1085',
@@ -130,6 +168,8 @@ export default {
       link: 'https://nonivie.vercel.app/'
     
     },
+
+    
 
     {
       id: 'ix3y2445',
@@ -350,15 +390,7 @@ export default {
       link: 'https://steprimo.com/android/en/app/com.digitalminds.android.nusu/'
 
   },
-  {
-    id: '4642',
-    title: 'Moxie 5 Marketing Agency',
-    techStacks: ["online"],
-    location: 'Kampala, Uganda',
-    desc: "Moxie5 Marketing Agency is a full-service marketing powerhouse established in 2019, specializing in delivering results-oriented marketing solutions tailored to agents of development across Uganda. ",
-    icon: MX5,
-    link: 'https://moxie5agency.com/',
-  },
+
   {
     id: '4',
     title: 'NWM Ltd',
