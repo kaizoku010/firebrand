@@ -38,7 +38,7 @@ function about() {
           NGRB, NWM, Tinteds, L'ampeire Stores, Sekpay, AkibaHub, The Wellbeing Foundation, Marshal's I.T Consultants, and Kuteesa
           Carmart. I'm excited to see what I can build with you. If you're interested in working with me, please feel free to contact me. <br />
           <br />
-          Whether you have questions or need something built, just hit me up..
+          Whether you have questions or need something built, just hit me
         </p>
 
         <div>

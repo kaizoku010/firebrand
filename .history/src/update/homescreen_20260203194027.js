@@ -20,7 +20,7 @@ function homescreen() {
             </button>
           </Link>
 
-          <Link rel="noonpener noreferrer" target="_blank" to="https://github.com/kaizoku010">
+          <Link rel="n" target="_blank" to="https://github.com/kaizoku010">
             <button id="btn-code">
               <img className="project-ic" src={CodeIc} />
               Code

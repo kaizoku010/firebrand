@@ -22,7 +22,7 @@ function footer() {
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-            <li><a   target='_blank' class="facebook" href="https://github.com/kaizoku010"><img  class="facebook"   src={CodeIc} /></a></li>
+            <li><a   target='_blank' rel="noopener noreferrer" class="facebook" href="https://github.com/kaizoku010"><img  class="facebook"   src={CodeIc} /></a></li>
               </ul>
           </div>
         </div>

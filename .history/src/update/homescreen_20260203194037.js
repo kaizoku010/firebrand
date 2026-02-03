@@ -10,7 +10,7 @@ function homescreen() {
     <div class="homepage">
       <main className="main-content">
         <img id="userImage" src={UserImage} />
-        <h1 className="userName">Kala Dixon</h1>
+        <h1 className="userName">Kalanzi Dixon</h1>
         <h2 className="userRole"> Software Developer</h2>
         <div className="site-holder">
           <Link to="/apps">
@@ -20,7 +20,7 @@ function homescreen() {
             </button>
           </Link>
 
-          <Link target="_blank" to="https://github.com/kaizoku010">
+          <Link rel="nonopener n" target="_blank" to="https://github.com/kaizoku010">
             <button id="btn-code">
               <img className="project-ic" src={CodeIc} />
               Code

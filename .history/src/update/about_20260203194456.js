@@ -35,10 +35,13 @@ function about() {
           <br />
           During my journey, I've had the pleasure of collaborating with
           remarkable companies such as Willapps UG, NoniVie Uganda, Muraka Consults, Kwetu LLC, Moxie 5 Marketing Agency ,Savage Creative Africa,
-          NGRB, NWM, Tinteds, L'ampeire Stores, Sekpay, AkibaHub, The Wellbeing Foundation, Marshal's I.T Consultants, and Kuteesa
-          Carmart. I'm excited to see what I can build with you. If you're interested in working with me, please feel free to contact me. <br />
+          NGRB, NWM, Tinteds, L'ampeire Stores, Sekpay,            AkibaHub
+          , The Wellbeing Foundation, Marshal's I.T Consultants, and Kuteesa
+          Carmart. I'm excited to see what I can build with you. If you're
+          interested in working with me, please feel free to contact me. <br />
           <br />
-          Whether you have questions or need something built, just hit me up..
+          Whether you have questions or need something built, I'm here to assist
+          you. {" "}
         </p>
 
         <div>

@@ -22,10 +22,7 @@ function footer() {
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-            <li><a   target='_blank' class="facebook" href="https://github.com/kaizoku010"><img  class="facebook"   src={CodeIc} /></a></li>
-              <li><a target='_blank' class="facebook" href="https://www.instagram.com/ug.firebrand/"><img class="facebook" src={IG} /></a></li>
-              <li><a   target='_blank' class="facebook" href="https://www.linkedin.com/in/dixon-muneza-a0a1b510a/"><img  class="facebook"  src={LinkedIn} /></a></li>
-              <li><a   target='_blank' class="facebook" href="https://www.deviantart.com/imfaceless"><img  class="facebook"  src={DeviantArt} /></a></li>
+            <li><a   target='_blank' rel= class="facebook" href="https://github.com/kaizoku010"><img  class="facebook"   src={CodeIc} /></a></li>
               </ul>
           </div>
         </div>
