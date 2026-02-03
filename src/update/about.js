@@ -27,7 +27,7 @@ function about() {
         </h1>
         <p className="about-text">
           Hello there! I'm truly honored to have you here. My name is Dixon, and
-          I'm a software developer with over eight years of experience.
+          I'm a software developer with over twelve years of experience.
           Throughout my career, I focus on building scalable and
           responsive mobile and web applications, always infused with a touch of
           creativity.
