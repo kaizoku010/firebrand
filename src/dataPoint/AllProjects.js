@@ -53,17 +53,17 @@ export default {
   allProjects: [
 
     
-    {
-      id: 'qq4985e',
-      title: "Aime Mentoring",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Australia, Sydney',
-       desc: 'A digital nation founded by AIME and a network of networks, an unlikely group of human, non-human and imagined beings that knew that the intelligence needed for the scale of the human problems...',
-      icon: Aime,
-      link: 'https://www.aimementoring.com/'
+    // {
+    //   id: 'qq4985e',
+    //   title: "Aime Mentoring",
+    //   techStacks: ["online"],
+    //   textColor: 'lightBlue',
+    //   location: 'Australia, Sydney',
+    //    desc: 'A digital nation founded by AIME and a network of networks, an unlikely group of human, non-human and imagined beings that knew that the intelligence needed for the scale of the human problems...',
+    //   icon: Aime,
+    //   link: 'https://www.aimementoring.com/'
     
-    },
+    // },
 
         
     {

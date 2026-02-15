@@ -43,6 +43,7 @@ import Skip from "../img/skip.png"
   import Workflow from "../img/workflow.svg"
   import Estates from "../img/estates.png"
   import Sumicon from "../img/sum.png"
+  import Aime from "../img/aime.png"
 
 
 
@@ -52,17 +53,17 @@ export default {
   allProjects: [
 
     
-    {
-      id: 'qq4985e',
-      title: "Aime Mentoring Autrial",
-      techStacks: ["online"],
-      textColor: 'lightBlue',
-      location: 'Tokyo, Japan',
-       desc: 'Monitor your work sessions, analyze productivity patterns, and achieve your goals with intelligent time tracking that adapts to your workflow.',
-      icon: Workflow,
-      link: 'https://workflow-v2-mu.vercel.app/'
+    // {
+    //   id: 'qq4985e',
+    //   title: "Aime Mentoring",
+    //   techStacks: ["online"],
+    //   textColor: 'lightBlue',
+    //   location: 'Australia, Sydney',
+    //    desc: 'A digital nation founded by AIME and a network of networks, an unlikely group of human, non-human and imagined beings that knew that the intelligence needed for the scale of the human problems...',
+    //   icon: Aime,
+    //   link: 'https://www.aimementoring.com/'
     
-    },
+    // },
 
         
     {
