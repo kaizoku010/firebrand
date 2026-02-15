@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../update/header.js'
-import Footer from '../update/footer.js'
+import Header from '../update/header.jsx'
+import Footer from '../update/footer.jsx'
 import "./blogdetails.css"
 
 function BlogDetails() {
@@ -18,9 +18,9 @@ function BlogDetails() {
           <section className="blog-section">
             <h2>Overview</h2>
             <p>
-            Have you wanted to stream a video to your own platform, it could be a website, or mobile app because sometime you may want to stream a video to a private group of people, or maybe a one-time event, 
-            Here is a guide to a workflow on how to leverage  Docker, OBS Studio and your custom application, nginx-rtmp, and HLS. Perfect for live events, tutorials, or 
-               custom streaming solutions!
+              Have you wanted to stream a video to your own platform, it could be a website, or mobile app because sometime you may want to stream a video to a private group of people, or maybe a one-time event,
+              Here is a guide to a workflow on how to leverage  Docker, OBS Studio and your custom application, nginx-rtmp, and HLS. Perfect for live events, tutorials, or
+              custom streaming solutions!
             </p>
             <h2>What You'll Need</h2>
             <ul>
@@ -32,7 +32,7 @@ function BlogDetails() {
             <h2>Step 1: Start the RTMP & HLS Server with Docker</h2>
             <p>Run this command in your terminal:</p>
             <pre className="blog-code">
-{`docker run -d \
+              {`docker run -d \
   -p 1935:1935 \
   -p 8080:80 \
   --name nginx-rtmp \
@@ -42,7 +42,7 @@ function BlogDetails() {
             <h2>Step 2: Stream Your Video to the RTMP Server</h2>
             <p>Use <b>ffmpeg</b> to push your video:</p>
             <pre className="blog-code">
-{`ffmpeg -re -i sample.mp4 -c:v libx264 -f flv rtmp://localhost/live/stream`}
+              {`ffmpeg -re -i sample.mp4 -c:v libx264 -f flv rtmp://localhost/live/stream`}
             </pre>
             <p>Or, in OBS Studio, set the stream URL to <code>rtmp://localhost/live</code> and the stream key to <code>stream</code>.</p>
             <h2>Step 3: Display the Stream in Your React App</h2>
@@ -50,11 +50,11 @@ function BlogDetails() {
               Use an HLS player like <a href="https://github.com/video-dev/hls.js/" target="_blank" rel="noopener noreferrer">hls.js</a> in your React app. Set the video source to:
             </p>
             <pre className="blog-code">
-{`http://localhost:8080/hls/stream.m3u8`}
+              {`http://localhost:8080/hls/stream.m3u8`}
             </pre>
             <p>Example React code:</p>
             <pre className="blog-code">
-{`<video id="video" controls autoPlay style={{ width: '100%' }} />`}
+              {`<video id="video" controls autoPlay style={{ width: '100%' }} />`}
             </pre>
             <p>Then, use hls.js to load the stream in your component.</p>
             <h2>Step 4: Watch the Stream in OBS</h2>
@@ -70,7 +70,7 @@ function BlogDetails() {
               You can automate the setup process using a PowerShell script. This script will stop and remove any existing RTMP container, start a new one on custom ports, and open the HLS stream in your browser automatically:
             </p>
             <pre className="blog-code">
-{`# Stop and remove existing container if it exists
+              {`# Stop and remove existing container if it exists
 $containerName = "nginx-rtmp"
 if ((docker ps -a --format "{{.Names}}" | Select-String $containerName)) {
     Write-Host "Stopping and removing existing container: $containerName"

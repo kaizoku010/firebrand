@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./appsPage.css";
 import { Link } from 'react-router-dom';
-import Chip from "../components/chips.js";
+import Chip from "../components/chips.jsx";
 import projectsData from "../dataPoint/AllProjects.js";
 
 function Apps() {
@@ -37,13 +37,13 @@ function Apps() {
       console.log('Search term:', searchTerm);
       console.log('Before filter:', filtered.length);
       const searchTermLower = searchTerm.toLowerCase();
-      
+
       filtered = filtered
         .map(project => {
           // Calculate relevance score
           let score = 0;
           const title = project.title.toLowerCase();
-          
+
           // Exact match in title
           if (title === searchTermLower) score += 100;
           // Starts with search term
@@ -56,13 +56,13 @@ function Apps() {
             project.location.toLowerCase().includes(searchTermLower)
           ) score += 25;
           else score = 0;
-          
+
           return { ...project, score };
         })
         .filter(project => project.score > 0) // Only keep relevant results
         .sort((a, b) => b.score - a.score) // Sort by score
         .map(({ score, ...project }) => project); // Remove the score property
-      
+
       console.log('After filter:', filtered.length);
     }
 
@@ -131,7 +131,7 @@ function Apps() {
         ) : (
           <ul className="sites-list">
             {filteredProjects.map((project, index) => (
-              <li key={project.id} className="sites" style={{animationDelay: `${index * 0.1}s`}}>
+              <li key={project.id} className="sites" style={{ animationDelay: `${index * 0.1}s` }}>
                 <Link className='link-list' to={project.link} target="_blank">
                   <div className="project-card">
                     <div className="card-header">
