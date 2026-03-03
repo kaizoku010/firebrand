@@ -26,11 +26,11 @@ function about() {
           <span className="about-span">About</span> me
         </h1>
         <p className="about-text">
-        Over the last 10 years, I have worked with tech startups in Uganda and a few around the world to ship their applications using React, React Native, JavaScript, and Android/Java. I'm experienced in building full-stack solutions, product management, also passionate about frontend & scalability. <br/>
+          Hi there! My name is Dixon, kalanzi Dixon thanks for being here, i'm a software developer with about eleven years of experience. During this time,
+          I've had the pleasure of working with intresting startups and companies like, RealEVR, Willapps UG, NoniVie Uganda, Muraka Consults, Kwetu LLC, Moxie 5 Marketing Agency ,Savage Creative Africa,
+          NGRB, NWM, Tinteds, L'ampeire Stores, Sekpay.<br/>
           <br/>
-          Have a complex build in mind ?,
-          <br/>
-          hit me up 
+          Interested in working with me?, feel free to hit me up anytime. 
         </p>
 
         <div>

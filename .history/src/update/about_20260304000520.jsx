@@ -26,7 +26,7 @@ function about() {
           <span className="about-span">About</span> me
         </h1>
         <p className="about-text">
-        Over the last 10 years, I have worked with tech startups in Uganda and a few around the world to ship their applications using React, React Native, JavaScript, and Android/Java. I'm experienced in building full-stack solutions, product management, also passionate about frontend & scalability. <br/>
+        Over the last 10 years, I have worked with tech  startups in Uganda and a few around the world to ship their cross-platform applications using React, React Native, JavaScript, and Android/Java. I'm experienced in building full-stack solutions, product management, also passionate about frontend & scalability. <br/>
           <br/>
           Have a complex build in mind ?,
           <br/>
