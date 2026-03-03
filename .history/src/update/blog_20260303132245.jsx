@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../update/blog.css';
 import PP from "../img/server.png";
-import Tools from "../tools/inspctre.png";
 ``
 function Blog() {
   // Mock data for blog items
@@ -12,12 +11,6 @@ function Blog() {
       title: 'Stream Any Video from OBS To Your React App Using Docker',
       description: 'Learn how to stream a local video to OBS and your React app using Dockerized RTMP and HLS servers.',
       image: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1678134359606/03e5efb6-7ba8-48d9-bba2-4a2700e620e4.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp'
-    },
-    {
-      id: 3,
-      title: 'InSpectre',
-      description: 'A specialized security tool for system analysis and inspection. Download the InSpectre executable to get started.',
-      image: Tools
     },
   ];
 
@@ -97,20 +90,6 @@ function Blog() {
                 disabled={isDownloading}
               >
                 {isDownloading ? 'Downloading...' : 'Download server.zip'}
-              </button>
-            ) : blog.id === 3 ? (
-              <button
-                className="download-button-2"
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = require('../tools/InSpectre.exe');
-                  link.download = 'InSpectre.exe';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
-              >
-                Download InSpectre.exe
               </button>
             ) : (
               <button

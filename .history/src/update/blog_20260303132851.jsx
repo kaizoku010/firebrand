@@ -17,7 +17,7 @@ function Blog() {
       id: 3,
       title: 'InSpectre',
       description: 'A specialized security tool for system analysis and inspection. Download the InSpectre executable to get started.',
-      image: Tools
+      image: require('../tools/inspctre.png')
     },
   ];
 

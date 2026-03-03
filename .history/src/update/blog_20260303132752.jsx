@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../update/blog.css';
 import PP from "../img/server.png";
-import Tools from "../tools/inspctre.png";
 ``
 function Blog() {
   // Mock data for blog items
@@ -17,7 +16,7 @@ function Blog() {
       id: 3,
       title: 'InSpectre',
       description: 'A specialized security tool for system analysis and inspection. Download the InSpectre executable to get started.',
-      image: Tools
+      image: require('../tools/inspctre.png')
     },
   ];
 
