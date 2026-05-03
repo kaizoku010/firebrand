@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./appsPage.css";
 import { Link } from 'react-router-dom';
-import Chip from "../components/chips.jsx";
 import projectsData from "../dataPoint/AllProjects.js";
-
 function Apps() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [filteredProjects, setFilteredProjects] = useState(projectsData.allProjects);
@@ -136,11 +134,7 @@ function Apps() {
                   <div className="project-card">
                     <div className="card-header">
                       <img className="site-logo" src={project.icon} alt={`${project.title} logo`} />
-                      <div className="card-badges">
-                        {project.techStacks.map((tech, i) => (
-                          <Chip key={i} tech={tech} color={tech === "Online" ? "#4CAF50" : tech === "Under Maintenance" ? "#FFC107" : "#2196F3"} />
-                        ))}
-                      </div>
+
                     </div>
                     <div className="card-content">
                       <h2 className="site-title">{project.title}</h2>
