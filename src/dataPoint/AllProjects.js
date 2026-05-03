@@ -59,7 +59,7 @@ export default {
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'Kampala, Uganda',
-      desc: 'A chat application with intelligent features like, calendar integration, internet search capabilities, web browsing, document analysis, image recognition & analysis, text analysis, data synthesis, and research compilation. Built with cutting-edge AI technology for comprehensive conversational experiences.',
+      desc: 'A chat application with intelligent features like internet search capabilities, web browsing, document analysis, image recognition & analysis, text analysis, data synthesis, and research compilation. Built with cutting-edge AI technology for comprehensive conversational experiences.',
       icon: NanoChat,
       link: 'https://nanochat-zeta.vercel.app/'
     },
