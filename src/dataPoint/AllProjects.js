@@ -58,7 +58,7 @@ export default {
       title: 'NanoChat',
       techStacks: ["online"],
       textColor: 'lightBlue',
-      location: 'Online',
+      location: 'Kampala, Uganda',
       desc: 'An advanced AI chat application with intelligent features including therapy sessions, current date & time awareness, calendar integration, internet search capabilities, web browsing, document analysis, image recognition & analysis, text analysis, data synthesis, and research compilation. Built with cutting-edge AI technology for comprehensive conversational experiences.',
       icon: NanoChat,
       link: 'https://nanochat-zeta.vercel.app/'
