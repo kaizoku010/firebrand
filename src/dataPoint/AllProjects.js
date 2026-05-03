@@ -44,6 +44,7 @@ import Skip from "../img/skip.png"
   import Estates from "../img/estates.png"
   import Sumicon from "../img/sum.png"
   import Aime from "../img/aime.png"
+import NanoChat from "../img/nanochat.png"
 
 
 
@@ -52,18 +53,16 @@ export default {
   
   allProjects: [
 
-    
-    // {
-    //   id: 'qq4985e',
-    //   title: "Aime Mentoring",
-    //   techStacks: ["online"],
-    //   textColor: 'lightBlue',
-    //   location: 'Australia, Sydney',
-    //    desc: 'A digital nation founded by AIME and a network of networks, an unlikely group of human, non-human and imagined beings that knew that the intelligence needed for the scale of the human problems...',
-    //   icon: Aime,
-    //   link: 'https://www.aimementoring.com/'
-    
-    // },
+    {
+      id: 'nc001',
+      title: 'NanoChat',
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'Online',
+      desc: 'An advanced AI chat application with intelligent features including therapy sessions, current date & time awareness, calendar integration, internet search capabilities, web browsing, document analysis, image recognition & analysis, text analysis, data synthesis, and research compilation. Built with cutting-edge AI technology for comprehensive conversational experiences.',
+      icon: NanoChat,
+      link: 'https://nanochat-zeta.vercel.app/'
+    },
 
         
     {
@@ -153,7 +152,7 @@ export default {
       location: 'Kampala, Ug',
        desc: 'Nyoni is a premier East African travel company dedicated to crafting unforgettable journeys across Uganda, Rwanda, and beyond. Rooted in the Swahili word for "bird," Nyonyi represents freedom, elegance, and the boundless spirit of exploration that guides our brand.',
       icon: Deriq,
-      link: 'https://nyonyiholidaysafrica.com/'
+      link: 'https://ssenyonyi-holidays-africa.vercel.app/'
     
     },
 
@@ -483,5 +482,7 @@ export default {
       textColor: 'black',
       link: 'https://lgrb.go.ug/'
     },
+
+
   ]
 }
