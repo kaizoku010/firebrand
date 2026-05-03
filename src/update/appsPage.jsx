@@ -86,7 +86,7 @@ function Apps() {
           <h1 className="appsHeading">
             Quality crafted <span className="apps-span">projects</span>
           </h1>
-          <p className="hero-subtitle">Explore our portfolio of innovative digital solutions</p>
+          <p className="hero-subtitle">Explore my portfolio of innovative digital solutions</p>
         </div>
         <div className="hero-shapes">
           <div className="shape shape-1"></div>
@@ -136,10 +136,7 @@ function Apps() {
                   <div className="project-card">
                     <div className="card-header">
                       <img className="site-logo" src={project.icon} alt={`${project.title} logo`} />
-                      <div className="card-badges">
-                        {project.techStacks.map((tech, i) => (
-                          <Chip key={i} tech={tech} color={tech === "Online" ? "#4CAF50" : tech === "Under Maintenance" ? "#FFC107" : "#2196F3"} />
-                        ))}
+                   
                       </div>
                     </div>
                     <div className="card-content">
