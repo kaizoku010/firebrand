@@ -70,7 +70,7 @@ export default {
       location: 'Uganda, Kampala',
       desc: 'This is a Markdown Viewer — a live editor-and-preview tool. You paste Markdown on the left, and it renders formatted output on the right in real time. The two panes are split by a draggable divider that you can pull to resize either side, and on mobile the layout automatically stacks vertically instead of side-by-side. It supports GitHub-Flavored Markdown (tables, task lists, code blocks, blockquotes, etc.) and ships with a sample document so you can see the styling on first load',
       icon: "https://imgs.search.brave.com/Yi3Ttk5HVAw-OA6JqIMnr-g6JUs2jgyIOmIYJYkMsfM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWFya2Rvd25sYW5n/LmNvbS9zdGF0aWMv/aW1hZ2VzL2xvZ28u/cG5n",
-      link: 'https://explorer.solana.com/address/mntBXQ7kBR8T9myNLAtKYwdgFevTws8gtEaY1rjHPGx/metadata'
+      link: 'https://markdownviewer-fawn.vercel.app/'
     },
     
     {
