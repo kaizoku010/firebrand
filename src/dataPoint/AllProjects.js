@@ -45,6 +45,7 @@ import Skip from "../img/skip.png"
   import Sumicon from "../img/sum.png"
   import Aime from "../img/aime.png"
 import NanoChat from "../img/nanochat.png"
+import Terminal from "../img/terminal.png"
 
 
 
@@ -53,6 +54,18 @@ export default {
   
   allProjects: [
       {
+      id: 'qrdx256&64',
+      title: 'Songbird Terminal Music Player',
+      techStacks: ["online"],
+      textColor: 'lightBlue',
+      location: 'The Moon',
+      desc: 'Songbird is a TUI music player built with Rust, scans the assigned music folder recursively, reads metadata, and plays tracks through `mpv` while keeping the interface fast and readable in a terminal.',
+      icon: Terminal,
+      link: 'https://songbird-tui-docs.vercel.app/'
+        
+    },
+    
+    {
       id: 'nc101',
       title: 'AllTideCoin',
       techStacks: ["online"],
@@ -61,6 +74,7 @@ export default {
       desc: 'AllTide is a relational digital currency that rewards verified contributions to knowledge sharing, mentorship, community wellbeing, and planetary health — while creating fairer pathways for economic participation. Earn value by improving communities and the planet.',
       icon: "https://res.cloudinary.com/dnko3bvt0/image/upload/v1782220175/atd_ic_zji50s.png",
       link: 'https://explorer.solana.com/address/mntBXQ7kBR8T9myNLAtKYwdgFevTws8gtEaY1rjHPGx/metadata'
+        
     },
       {
       id: 'nc201',
