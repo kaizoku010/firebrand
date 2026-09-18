@@ -55,7 +55,7 @@ export default {
   allProjects: [
       {
       id: 'qrdx256&64',
-      title: 'Songbird Terminal Music Player',
+      title: 'Songbird',
       techStacks: ["online"],
       textColor: 'lightBlue',
       location: 'The Moon',
