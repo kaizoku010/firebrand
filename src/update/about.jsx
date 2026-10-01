@@ -26,7 +26,7 @@ function about() {
           <span className="about-span">About</span> me
         </h1>
         <p className="about-text">
-Over the last 10 years, I have worked with tech startups in Uganda and a few around the world to build, ship and operate dedicated cloud infrastructure, storage, and data pipelines for specialized workloads that can or can't run on general-purpose systems. 
+Over the last 10 years, I have worked with tech companies to build, ship and operate dedicated cloud infrastructure, storage, and data pipelines for specialized workloads that can or can't run on general-purpose systems. 
           <br/>
           Have a complex build in mind ?,
           <br/>
