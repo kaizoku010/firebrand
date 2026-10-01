@@ -27,10 +27,6 @@ function about() {
         </h1>
         <p className="about-text">
 Over the last 10 years, I have worked with companies to build, ship and operate dedicated cloud infrastructure, storage, and data pipelines for specialized workloads that can or can't run on general-purpose systems. 
-          <br/>
-          Have a complex build in mind ?,
-          <br/>
-          hit me up 
         </p>
 
         <div>
