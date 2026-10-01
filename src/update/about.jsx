@@ -8,12 +8,7 @@ function about() {
   const techStack = [
     "Java",
     "Python",
-    "JavaScript",
-    "React Native",
-    "ReactJs",
-    "AWS",
-    "Vite",
-    "next.js",
+    "JavaScript"
   ];
 
 
